@@ -607,7 +607,76 @@
     <Rooms>
       <UnloadedRoomFolder Name="Main">
         <SubFolders />
-        <UnloadedRooms />
+        <UnloadedRooms>
+          <UnloadedRoom>
+            <Number>1</Number>
+            <Description xml:space="preserve">Kyla_2, lahtoruutu</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>2</Number>
+            <Description xml:space="preserve">Kyla_1, kaupan edusta</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>3</Number>
+            <Description xml:space="preserve">Kyla_3, pappila</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>4</Number>
+            <Description xml:space="preserve">Kyla_4, aukio</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>5</Number>
+            <Description>Pelto</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>6</Number>
+            <Description xml:space="preserve">Lisametsa_1, oravien luo</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>7</Number>
+            <Description>Oravaniitty</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>8</Number>
+            <Description xml:space="preserve">Lisametsa_3_majat, marjat, metsa pohjoiseen</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>9</Number>
+            <Description>Metsastysmaja_ulko</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>10</Number>
+            <Description>Metsastysmaja_sisa</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>11</Number>
+            <Description>Kalastusmaja</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>12</Number>
+            <Description>Marjametsa</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>13</Number>
+            <Description xml:space="preserve">Lisametsa_2_padolle ja hengen luo</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>14</Number>
+            <Description>Pato</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>15</Number>
+            <Description xml:space="preserve">Metsan henki</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>16</Number>
+            <Description>Kauppa</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>17</Number>
+            <Description xml:space="preserve">Oma mokki</Description>
+          </UnloadedRoom>
+        </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
     <GUIs>
@@ -1395,8 +1464,8 @@
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
