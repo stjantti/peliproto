@@ -7,7 +7,7 @@
       <UniqueID>21736914</UniqueID>
       <GUIDAsString>{d65f43c5-308b-4051-9924-207ddc53177f}</GUIDAsString>
       <ColorDepth>HighColor</ColorDepth>
-      <Resolution>R320x200</Resolution>
+      <Resolution>R1024x768</Resolution>
       <GraphicsDriver>DX5</GraphicsDriver>
       <CompressSprites>False</CompressSprites>
       <SaveScreenshots>False</SaveScreenshots>
