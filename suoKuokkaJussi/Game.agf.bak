@@ -672,6 +672,10 @@
             <Number>17</Number>
             <Description xml:space="preserve">Oma mokki</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>2</Number>
+            <Description xml:space="preserve">Kyla_1, kaupan edusta</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
