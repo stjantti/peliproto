@@ -613,6 +613,10 @@
             <Description xml:space="preserve">Kyla_2, lahtoruutu</Description>
           </UnloadedRoom>
           <UnloadedRoom>
+            <Number>2</Number>
+            <Description xml:space="preserve">Kyla_1, kaupan edusta</Description>
+          </UnloadedRoom>
+          <UnloadedRoom>
             <Number>3</Number>
             <Description xml:space="preserve">Kyla_3, pappila</Description>
           </UnloadedRoom>
@@ -671,10 +675,6 @@
           <UnloadedRoom>
             <Number>17</Number>
             <Description xml:space="preserve">Oma mokki</Description>
-          </UnloadedRoom>
-          <UnloadedRoom>
-            <Number>2</Number>
-            <Description xml:space="preserve">Kyla_1, kaupan edusta</Description>
           </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
