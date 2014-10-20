@@ -1323,6 +1323,86 @@
         <SubFolders />
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
+          <Sprite Slot="1" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\halot-inventaario.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="2" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\halot-kentässä.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="3" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\jauhosäkki.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="4" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\kartta(inventaario).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="5" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\longbow and quiver.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="6" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\marjoja.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="7" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\orava-bossi.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="8" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\oravannahka erikoinen.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="9" Width="640" Height="440" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\orava tavallinen.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="10" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\padon keppi(vipuksi).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="11" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\piirakka.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="12" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\taikajyvät.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="13" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\tulukset-hylly.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="14" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\tulukset-inventaario.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="15" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\vuoka.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="16" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Koti\Pictures\peliproto\vuoka ja raaka piirakkataikina.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
