@@ -1523,6 +1523,11 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\vuoka ja raaka piirakkataikina.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="17" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\jauhosäkki.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
