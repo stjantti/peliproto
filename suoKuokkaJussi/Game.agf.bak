@@ -622,7 +622,7 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>4</Number>
-            <Description xml:space="preserve">Kyla_4, aukio</Description>
+            <Description xml:space="preserve">Kyla_4, tori</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>5</Number>
@@ -638,7 +638,7 @@
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>8</Number>
-            <Description xml:space="preserve">Lisametsa_3_majat, marjat, metsa pohjoiseen</Description>
+            <Description>Lisametsa_3_metsatienhaara</Description>
           </UnloadedRoom>
           <UnloadedRoom>
             <Number>9</Number>
