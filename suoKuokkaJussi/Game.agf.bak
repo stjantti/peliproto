@@ -1339,87 +1339,188 @@
     </GlobalVariables>
     <Sprites>
       <SpriteFolder Name="Main">
-        <SubFolders />
+        <SubFolders>
+          <SpriteFolder Name="characters">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="17" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\joku1_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="18" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\joku2_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="19" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\joku3_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="20" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\joku4_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="21" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\joku5_sivulta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="22" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\joku6_sivulta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="23" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\kalastaja(älyttömät värit)_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="24" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\kauppias_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="25" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\maanviljelijä_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="26" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\metsänhenki(todella outo...)_sivusta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="27" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\naispuolinen edestä2.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="28" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\naispuolinen sivulta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="29" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\naispuolinen takaa.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="30" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\papin apulainen edestä.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="31" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\papin apulainen sivulta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="32" Width="1711" Height="1617" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\papin apulainen takaa.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="33" Width="392" Height="542" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\pappi_edesta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="34" Width="266" Height="538" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\pappi_sivulta.png</FileName>
+                </Source>
+              </Sprite>
+              <Sprite Slot="35" Width="276" Height="540" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+                <Source>
+                  <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\hahmot\pappi_takaa.png</FileName>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
+        </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="1" Height="1" ColorDepth="8" Resolution="LowRes" AlphaChannel="False" />
-          <Sprite Slot="1" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="1" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\halot-inventaario.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\halot-inventaario.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="2" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\halot-kentässä.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\halot-kentässä.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="3" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\jauhosäkki.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\jauhosäkki.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="4" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="4" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\kartta(inventaario).png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\kartta(inventaario).png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="5" Width="1024" Height="768" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="5" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\longbow and quiver.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\longbow and quiver.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="6" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="6" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\marjoja.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\marjoja.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="7" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\orava-bossi.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\orava-bossi.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="8" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="8" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\oravannahka erikoinen.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\oravannahka erikoinen.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="9" Width="640" Height="440" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="9" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\orava tavallinen.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\orava tavallinen.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="10" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\padon keppi(vipuksi).png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\padon keppi(vipuksi).png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="11" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="11" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\piirakka.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\piirakka.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="12" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="12" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\taikajyvät.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\taikajyvät.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="13" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\tulukset-hylly.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\tulukset-hylly.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="14" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="14" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\tulukset-inventaario.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\tulukset-inventaario.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="15" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="15" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\vuoka.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\vuoka.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="16" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="16" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Koti\Pictures\peliproto\vuoka ja raaka piirakkataikina.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\vuoka ja raaka piirakkataikina.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -1431,7 +1532,7 @@
         <Views>
           <View>
             <ID>1</ID>
-            <Name>VIEW1</Name>
+            <Name>Player_female</Name>
             <Loops>
               <Loop>
                 <ID>0</ID>
@@ -1439,7 +1540,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>27</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -1452,8 +1553,8 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
-                    <Flipped>False</Flipped>
+                    <Image>28</Image>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -1465,7 +1566,7 @@
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>28</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -1475,7 +1576,15 @@
               <Loop>
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
-                <Frames />
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>29</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
             </Loops>
           </View>
