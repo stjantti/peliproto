@@ -1666,6 +1666,16 @@
               <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="22" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_tulva.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="23" Width="630" Height="398" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_joki.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
