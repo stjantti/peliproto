@@ -707,7 +707,7 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick />
+                <OnClick>newGame_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -728,7 +728,7 @@
                 <Name>newGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>loadGame_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -749,7 +749,7 @@
                 <Name>loadGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>saveGame_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -770,7 +770,7 @@
                 <Name>saveGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>exitViaGUI_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -783,9 +783,9 @@
                 <Text>Exit</Text>
                 <Height>30</Height>
                 <Locked>False</Locked>
-                <Width>1000</Width>
-                <Left>9</Left>
-                <Top>579</Top>
+                <Width>200</Width>
+                <Left>812</Left>
+                <Top>581</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>exitViaGUI</Name>
@@ -803,6 +803,27 @@
                 <ID>4</ID>
                 <Name>InventoryWindow</Name>
               </GUIInventory>
+              <GUIButton>
+                <OnClick>quitGUI_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>1</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Resume game</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>700</Width>
+                <Left>9</Left>
+                <Top>581</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>quitGUI</Name>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
