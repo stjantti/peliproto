@@ -676,6 +676,10 @@
             <Number>17</Number>
             <Description xml:space="preserve">Oma mokki, Lähtöruutu</Description>
           </UnloadedRoom>
+          <UnloadedRoom>
+            <Number>18</Number>
+            <Description xml:space="preserve">Main menu</Description>
+          </UnloadedRoom>
         </UnloadedRooms>
       </UnloadedRoomFolder>
     </Rooms>
