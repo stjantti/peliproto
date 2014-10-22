@@ -707,7 +707,7 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick>newGame_OnClick</OnClick>
+                <OnClick />
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -728,7 +728,7 @@
                 <Name>newGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick>loadGame_OnClick</OnClick>
+                <OnClick />
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -749,7 +749,7 @@
                 <Name>loadGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick>saveGame_OnClick</OnClick>
+                <OnClick />
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -770,7 +770,7 @@
                 <Name>saveGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick>exitViaGUI_OnClick</OnClick>
+                <OnClick />
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -783,9 +783,9 @@
                 <Text>Exit</Text>
                 <Height>30</Height>
                 <Locked>False</Locked>
-                <Width>310</Width>
-                <Left>698</Left>
-                <Top>575</Top>
+                <Width>1000</Width>
+                <Left>9</Left>
+                <Top>579</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>exitViaGUI</Name>
@@ -803,27 +803,6 @@
                 <ID>4</ID>
                 <Name>InventoryWindow</Name>
               </GUIInventory>
-              <GUIButton>
-                <OnClick>closeGUI_OnClick</OnClick>
-                <ClickAction>RunScript</ClickAction>
-                <NewModeNumber>0</NewModeNumber>
-                <ClipImage>False</ClipImage>
-                <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
-                <Font>1</Font>
-                <PushedImage>0</PushedImage>
-                <MouseoverImage>0</MouseoverImage>
-                <Image>0</Image>
-                <Text xml:space="preserve">Resume Game</Text>
-                <Height>30</Height>
-                <Locked>False</Locked>
-                <Width>600</Width>
-                <Left>9</Left>
-                <Top>575</Top>
-                <ZOrder>5</ZOrder>
-                <ID>5</ID>
-                <Name>closeGUI</Name>
-              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -1037,46 +1016,6 @@
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
-            <MovementSpeedY>0</MovementSpeedY>
-            <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
-            <Solid>True</Solid>
-            <Clickable>True</Clickable>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
-            <UseRoomAreaLighting>True</UseRoomAreaLighting>
-            <TurnBeforeWalking>True</TurnBeforeWalking>
-            <DiagonalLoops>True</DiagonalLoops>
-            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
-            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
-            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
-            <Properties />
-            <Interactions>
-              <Event Index="0" />
-              <Event Index="1" />
-              <Event Index="2" />
-              <Event Index="3" />
-              <Event Index="4" />
-              <Event Index="5" />
-              <Event Index="6" />
-              <Event Index="7" />
-            </Interactions>
-          </Character>
-          <Character>
-            <ID>1</ID>
-            <ScriptName>cMetHen</ScriptName>
-            <RealName>Metsänhenki</RealName>
-            <NormalView>1</NormalView>
-            <SpeechView>0</SpeechView>
-            <IdleView>0</IdleView>
-            <ThinkingView>0</ThinkingView>
-            <BlinkingView>0</BlinkingView>
-            <StartingRoom>15</StartingRoom>
-            <StartX>900</StartX>
-            <StartY>550</StartY>
-            <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
-            <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
@@ -1672,9 +1611,9 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\orava tavallinen.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="10" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="10" Width="168" Height="105" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\padon keppi(vipuksi).png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\padon_vipukeppi.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="11" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -1712,24 +1651,19 @@
               <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\jauhosäkki.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="18" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="18" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\orava tavallinen-pieni – oikealle.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_tulva.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="19" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="19" Width="630" Height="398" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\orava tavallinen-pieni.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_joki.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="20" Width="320" Height="200" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="20" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\orava-bossi-pieni.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="21" Width="320" Height="200" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\tulukset-hylly-pieni.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
