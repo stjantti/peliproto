@@ -838,10 +838,28 @@
             <HotspotX>0</HotspotX>
             <HotspotY>0</HotspotY>
             <PlayerStartsWithItem>False</PlayerStartsWithItem>
-            <CursorImage>0</CursorImage>
+            <CursorImage>14</CursorImage>
             <Image>14</Image>
             <Description>Tulukset</Description>
-            <Name>Tulukset</Name>
+            <Name>iTulukset</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>2</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>21</CursorImage>
+            <Image>21</Image>
+            <Description xml:space="preserve">New inventory item</Description>
+            <Name>iVipuoksa</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1632,11 +1650,6 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\orava tavallinen.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="10" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\padon keppi(vipuksi).png</FileName>
-            </Source>
-          </Sprite>
           <Sprite Slot="11" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\piirakka.png</FileName>
@@ -1670,6 +1683,26 @@
           <Sprite Slot="17" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\jauhosäkki.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="18" Width="630" Height="398" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_joki.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="19" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_tulva.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="20" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="21" Width="168" Height="105" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\padon keppi(vipuksi).png</FileName>
             </Source>
           </Sprite>
         </Sprites>
