@@ -707,7 +707,7 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick />
+                <OnClick>newGame_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -783,9 +783,9 @@
                 <Text>Exit</Text>
                 <Height>30</Height>
                 <Locked>False</Locked>
-                <Width>1000</Width>
-                <Left>9</Left>
-                <Top>579</Top>
+                <Width>300</Width>
+                <Left>713</Left>
+                <Top>576</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>exitViaGUI</Name>
@@ -803,6 +803,27 @@
                 <ID>4</ID>
                 <Name>InventoryWindow</Name>
               </GUIInventory>
+              <GUIButton>
+                <OnClick>quitGUI_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Resume Game</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>650</Width>
+                <Left>25</Left>
+                <Top>576</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>quitGUI</Name>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
@@ -1550,34 +1571,29 @@
               <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\jauhosäkki.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="18" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="18" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_tulva.png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\orava tavallinen-pieni.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="19" Width="630" Height="398" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="19" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_joki.png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\orava tavallinen-pieni – oikealle.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="20" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="20" Width="320" Height="200" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\orava-bossi-pieni.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="22" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="21" Width="320" Height="200" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_tulva.png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\tulukset-hylly-pieni.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="23" Width="630" Height="398" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="22" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_joki.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="24" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
