@@ -698,9 +698,9 @@
               <Visibility>Normal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
+              <BorderColor>1024</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
+              <BackgroundColor>320</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>0</ID>
               <Name>gGui1</Name>
@@ -775,7 +775,7 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>16384</TextColor>
                 <Font>2</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -784,8 +784,8 @@
                 <Height>30</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
-                <Left>713</Left>
-                <Top>576</Top>
+                <Left>711</Left>
+                <Top>725</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>exitViaGUI</Name>
@@ -794,11 +794,11 @@
                 <ItemWidth>160</ItemWidth>
                 <ItemHeight>100</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>500</Height>
+                <Height>600</Height>
                 <Locked>False</Locked>
                 <Width>1000</Width>
                 <Left>9</Left>
-                <Top>65</Top>
+                <Top>70</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>InventoryWindow</Name>
@@ -809,7 +809,7 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>1024</TextColor>
                 <Font>2</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -819,7 +819,7 @@
                 <Locked>False</Locked>
                 <Width>650</Width>
                 <Left>25</Left>
-                <Top>576</Top>
+                <Top>725</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>quitGUI</Name>
@@ -1589,6 +1589,11 @@
           <Sprite Slot="21" Width="320" Height="200" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\tulukset-hylly-pieni.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="22" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
