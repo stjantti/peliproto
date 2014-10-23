@@ -1057,7 +1057,7 @@
         <HotspotX>6</HotspotX>
         <HotspotY>15</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>0</Image>
+        <Image>17</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1069,7 +1069,7 @@
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>0</Image>
+        <Image>17</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1081,7 +1081,7 @@
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>0</Image>
+        <Image>17</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1093,7 +1093,7 @@
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>0</Image>
+        <Image>17</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1105,7 +1105,7 @@
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>0</Image>
+        <Image>17</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1117,7 +1117,7 @@
         <HotspotX>8</HotspotX>
         <HotspotY>8</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>0</Image>
+        <Image>17</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1129,7 +1129,7 @@
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>0</Image>
+        <Image>17</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1545,9 +1545,9 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\vuoka ja raaka piirakkataikina.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="17" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="17" Width="32" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\jauhosäkki.png</FileName>
+              <FileName>C:\Users\Hanna\Desktop\kursori.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="18" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -1578,6 +1578,11 @@
           <Sprite Slot="24" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="17" Width="32" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Desktop\kursori.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
