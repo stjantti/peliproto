@@ -841,7 +841,169 @@
             <CursorImage>0</CursorImage>
             <Image>14</Image>
             <Description>Tulukset</Description>
-            <Name>Tulukset</Name>
+            <Name>iTulukset</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>2</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>8</Image>
+            <Description>Oravannahka</Description>
+            <Name>iOravannahka</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>3</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>11</Image>
+            <Description>Piirakka</Description>
+            <Name>iPiirakka</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>4</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>6</Image>
+            <Description>marjoja</Description>
+            <Name>iMarjoja</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>5</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>16</Image>
+            <Description xml:space="preserve">Raaka Piirakka</Description>
+            <Name>iRaakaPiirakka</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>6</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>17</Image>
+            <Description>Jauhosäkki</Description>
+            <Name>iJauhoSakki</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>7</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>4</Image>
+            <Description>kartta</Description>
+            <Name>iKartta</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>8</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>23</Image>
+            <Description xml:space="preserve">Jousipyssy ja nuolet</Description>
+            <Name>iMetsastysTarvi</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>9</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>24</Image>
+            <Description>Oksa</Description>
+            <Name>iVipukeppi</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>10</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>12</Image>
+            <Description>Taikajyvät</Description>
+            <Name>iTaikajyvat</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1634,6 +1796,16 @@
           <Sprite Slot="22" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="23" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\longbow and quiver – inventaario.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="24" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\padon_vipukeppi –inventaario.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
