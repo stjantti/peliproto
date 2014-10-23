@@ -698,9 +698,9 @@
               <Visibility>Normal</Visibility>
               <PopupYPos>0</PopupYPos>
               <ZOrder>0</ZOrder>
-              <BorderColor>2</BorderColor>
+              <BorderColor>1024</BorderColor>
               <Transparency>0</Transparency>
-              <BackgroundColor>8</BackgroundColor>
+              <BackgroundColor>320</BackgroundColor>
               <BackgroundImage>0</BackgroundImage>
               <ID>0</ID>
               <Name>gGui1</Name>
@@ -775,7 +775,7 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>16384</TextColor>
                 <Font>2</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -784,8 +784,8 @@
                 <Height>30</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
-                <Left>713</Left>
-                <Top>576</Top>
+                <Left>711</Left>
+                <Top>725</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>exitViaGUI</Name>
@@ -794,11 +794,11 @@
                 <ItemWidth>160</ItemWidth>
                 <ItemHeight>100</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>500</Height>
+                <Height>620</Height>
                 <Locked>False</Locked>
                 <Width>1000</Width>
-                <Left>9</Left>
-                <Top>65</Top>
+                <Left>10</Left>
+                <Top>80</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>InventoryWindow</Name>
@@ -809,7 +809,7 @@
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
                 <TextAlignment>Centred</TextAlignment>
-                <TextColor>0</TextColor>
+                <TextColor>1024</TextColor>
                 <Font>2</Font>
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
@@ -819,7 +819,7 @@
                 <Locked>False</Locked>
                 <Width>650</Width>
                 <Left>25</Left>
-                <Top>576</Top>
+                <Top>725</Top>
                 <ZOrder>5</ZOrder>
                 <ID>5</ID>
                 <Name>quitGUI</Name>
@@ -841,7 +841,169 @@
             <CursorImage>0</CursorImage>
             <Image>14</Image>
             <Description>Tulukset</Description>
-            <Name>Tulukset</Name>
+            <Name>iTulukset</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>2</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>8</Image>
+            <Description>Oravannahka</Description>
+            <Name>iOravannahka</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>3</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>11</Image>
+            <Description>Piirakka</Description>
+            <Name>iPiirakka</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>4</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>6</Image>
+            <Description>marjoja</Description>
+            <Name>iMarjoja</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>5</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>16</Image>
+            <Description xml:space="preserve">Raaka Piirakka</Description>
+            <Name>iRaakaPiirakka</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>6</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>17</Image>
+            <Description>Jauhosäkki</Description>
+            <Name>iJauhoSakki</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>7</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>4</Image>
+            <Description>kartta</Description>
+            <Name>iKartta</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>8</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>23</Image>
+            <Description xml:space="preserve">Jousipyssy ja nuolet</Description>
+            <Name>iMetsastysTarvi</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>9</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>24</Image>
+            <Description>Oksa</Description>
+            <Name>iVipukeppi</Name>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+            </Interactions>
+          </InventoryItem>
+          <InventoryItem>
+            <ID>10</ID>
+            <HotspotX>0</HotspotX>
+            <HotspotY>0</HotspotY>
+            <PlayerStartsWithItem>False</PlayerStartsWithItem>
+            <CursorImage>0</CursorImage>
+            <Image>12</Image>
+            <Description>Taikajyvät</Description>
+            <Name>iTaikajyvat</Name>
             <Properties />
             <Interactions>
               <Event Index="0" />
@@ -1055,6 +1217,46 @@
               <Event Index="0" />
               <Event Index="1" />
               <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>1</ID>
+            <ScriptName>cMetHen</ScriptName>
+            <RealName>Metsanhenki</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>15</StartingRoom>
+            <StartX>900</StartX>
+            <StartY>550</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>802</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2">cMetHen_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1594,6 +1796,16 @@
           <Sprite Slot="22" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\pato_kivi.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="23" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\longbow and quiver – inventaario.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="24" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\padon_vipukeppi –inventaario.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
