@@ -707,7 +707,7 @@
             </NormalGUI>
             <Controls>
               <GUIButton>
-                <OnClick />
+                <OnClick>newGame_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -783,9 +783,9 @@
                 <Text>Exit</Text>
                 <Height>30</Height>
                 <Locked>False</Locked>
-                <Width>1000</Width>
-                <Left>9</Left>
-                <Top>579</Top>
+                <Width>300</Width>
+                <Left>713</Left>
+                <Top>576</Top>
                 <ZOrder>3</ZOrder>
                 <ID>3</ID>
                 <Name>exitViaGUI</Name>
@@ -803,6 +803,27 @@
                 <ID>4</ID>
                 <Name>InventoryWindow</Name>
               </GUIInventory>
+              <GUIButton>
+                <OnClick>quitGUI_OnClick</OnClick>
+                <ClickAction>RunScript</ClickAction>
+                <NewModeNumber>0</NewModeNumber>
+                <ClipImage>False</ClipImage>
+                <TextAlignment>Centred</TextAlignment>
+                <TextColor>0</TextColor>
+                <Font>2</Font>
+                <PushedImage>0</PushedImage>
+                <MouseoverImage>0</MouseoverImage>
+                <Image>0</Image>
+                <Text xml:space="preserve">Resume Game</Text>
+                <Height>30</Height>
+                <Locked>False</Locked>
+                <Width>650</Width>
+                <Left>25</Left>
+                <Top>576</Top>
+                <ZOrder>5</ZOrder>
+                <ID>5</ID>
+                <Name>quitGUI</Name>
+              </GUIButton>
             </Controls>
           </GUIMain>
         </GUIs>
