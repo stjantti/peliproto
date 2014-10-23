@@ -794,11 +794,11 @@
                 <ItemWidth>160</ItemWidth>
                 <ItemHeight>100</ItemHeight>
                 <CharacterID>-1</CharacterID>
-                <Height>600</Height>
+                <Height>620</Height>
                 <Locked>False</Locked>
                 <Width>1000</Width>
-                <Left>9</Left>
-                <Top>70</Top>
+                <Left>10</Left>
+                <Top>80</Top>
                 <ZOrder>4</ZOrder>
                 <ID>4</ID>
                 <Name>InventoryWindow</Name>
