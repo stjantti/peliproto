@@ -1877,6 +1877,57 @@ return
               </DialogOption>
             </DialogOptions>
           </Dialog>
+          <Dialog>
+            <ID>5</ID>
+            <Name>dKalastaja</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+return
+@1
+return
+@2
+return
+@3
+return
+@4
+return
+@5
+return
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">Sorry to bother you. Goodbye.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Who are you?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">Can I help you?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Text xml:space="preserve">I repaired your fishing net.</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
+                <Text xml:space="preserve">Hello again.</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
@@ -3206,8 +3257,8 @@ return
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
