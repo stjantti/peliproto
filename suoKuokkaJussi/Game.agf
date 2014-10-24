@@ -1766,6 +1766,61 @@ return
               </DialogOption>
             </DialogOptions>
           </Dialog>
+          <Dialog>
+            <ID>1</ID>
+            <Name>dPappi</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cPappi: What are you staring at? Nothing to see here. 
+return
+@1
+cPappi: God opposes the proud but gives grace to the humble.
+CPappi: Be on your way already!
+return
+@2
+cPappi: Go to your work! 'You who are younger, submit yourselves to your elders.'
+return
+@3
+cPappi: Pardon me?
+cCharacter: Pie, Sir. I found blueberries and lingonberries and made a pie.
+cCharacter: I heard that You like pie. Perhaps You would grace me by trying it?
+cPappi: But certainly, my dear. I am glad to see that some people here honour their leaders appropriately.
+cPappi: How delicious it looks. Thank you very much for this gift.
+return
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I'm sorry to bother you, Sir.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Excuse me, Sir</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">May I offer you some pie?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>2</ID>
+            <Name>dPapinApulainen</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cPapinApulainen: The reverend is busy. Please go on with your duties.
+return
+]]></Script>
+            <DialogOptions />
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
@@ -2181,6 +2236,11 @@ return
           <Name>Pato_tehty</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Pappi_kylassa</Name>
+          <Type>bool</Type>
+          <DefaultValue>true</DefaultValue>
         </GlobalVariable>
       </Variables>
     </GlobalVariables>
