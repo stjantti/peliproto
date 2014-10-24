@@ -724,7 +724,7 @@
                 <Name>newGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>loadGame_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
@@ -766,7 +766,7 @@
                 <Name>saveGame</Name>
               </GUIButton>
               <GUIButton>
-                <OnClick />
+                <OnClick>exitViaGUI_OnClick</OnClick>
                 <ClickAction>RunScript</ClickAction>
                 <NewModeNumber>0</NewModeNumber>
                 <ClipImage>False</ClipImage>
