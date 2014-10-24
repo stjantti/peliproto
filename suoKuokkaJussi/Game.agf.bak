@@ -1211,7 +1211,7 @@
             <StartX>600</StartX>
             <StartY>600</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>10</MovementSpeed>
+            <MovementSpeed>15</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
