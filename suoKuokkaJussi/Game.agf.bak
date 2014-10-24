@@ -1821,6 +1821,61 @@ return
 ]]></Script>
             <DialogOptions />
           </Dialog>
+          <Dialog>
+            <ID>3</ID>
+            <Name>dMummeli_1</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMummeli: Heehee, that reverend of ours, so full of himself.
+cMummeli: Heehee, now he gets to act as he preaches.
+return
+@1
+cMummeli: Humility! Heehee! Poor chap can't even get himself some pie. Heehee!
+return
+@2
+cMummeli: Heehee! Forest is flooded, no berries, no pie! Heehee!
+return
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">I'm sorry?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Can't get ... pie?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>4</ID>
+            <Name>dMummeli_2</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMummeli: Heehee! Vicar's in well, little Tommy tell.
+return
+@1
+cMummeli: Heehee! Why do you ask?
+cCharacter: Do you know how to get him to leave the village?
+cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
+cMummeli: 
+return
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">Pardon me, do you know anything about the vicar?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
