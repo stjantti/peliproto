@@ -1952,9 +1952,9 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\halot-kentässä.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="3" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="3" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\jauhosäkki.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_tulva.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="4" Width="160" Height="100" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
