@@ -1982,9 +1982,9 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\oravannahka erikoinen.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="9" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="9" Width="1024" Height="786" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\orava tavallinen.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\marjametsa_vari_tulva.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="10" Width="168" Height="105" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -2077,47 +2077,47 @@
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\kasikursori.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="28" Width="300" Height="546" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="28" Width="220" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_edesta_seisoo.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="29" Width="300" Height="546" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="29" Width="220" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_edesta_kavely1.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="30" Width="300" Height="546" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="30" Width="220" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_edesta_kavely2.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="31" Width="321" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="31" Width="232" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_sivulta_seisoo.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="32" Width="321" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="32" Width="232" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_sivulta_kavely1.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="33" Width="321" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="33" Width="232" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_sivulta_kavely2.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="34" Width="308" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="34" Width="223" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_takaa_seisoo.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="35" Width="308" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="35" Width="223" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_takaa_kavely1.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="36" Width="308" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="36" Width="223" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_takaa_kavely2.png</FileName>
             </Source>
