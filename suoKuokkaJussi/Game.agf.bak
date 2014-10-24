@@ -1400,23 +1400,23 @@
           </Character>
           <Character>
             <ID>5</ID>
-            <ScriptName>cChar4</ScriptName>
-            <RealName xml:space="preserve">New character</RealName>
+            <ScriptName>cMummeli</ScriptName>
+            <RealName xml:space="preserve">Hurahtanut mummeli</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>6</StartingRoom>
+            <StartX>765</StartX>
+            <StartY>614</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>32784</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1440,16 +1440,16 @@
           </Character>
           <Character>
             <ID>6</ID>
-            <ScriptName>cChar5</ScriptName>
-            <RealName xml:space="preserve">New character</RealName>
+            <ScriptName>ckauppias</ScriptName>
+            <RealName>Kauppias</RealName>
             <NormalView>1</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>-1</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>120</StartY>
+            <StartingRoom>16</StartingRoom>
+            <StartX>643</StartX>
+            <StartY>371</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
