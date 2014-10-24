@@ -1208,10 +1208,10 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>17</StartingRoom>
-            <StartX>160</StartX>
-            <StartY>160</StartY>
+            <StartX>600</StartX>
+            <StartY>600</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
-            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeed>10</MovementSpeed>
             <MovementSpeedX>3</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
@@ -1927,21 +1927,21 @@
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>31</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
                     <Image>32</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
                     <Image>33</Image>
-                    <Flipped>False</Flipped>
+                    <Flipped>True</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
@@ -1954,21 +1954,21 @@
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>31</Image>
-                    <Flipped>True</Flipped>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>1</ID>
                     <Image>32</Image>
-                    <Flipped>True</Flipped>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
                   <ViewFrame>
                     <ID>2</ID>
                     <Image>33</Image>
-                    <Flipped>True</Flipped>
+                    <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
                   </ViewFrame>
