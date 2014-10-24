@@ -2322,6 +2322,111 @@
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_takaa_kavely2.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="37" Width="233" Height="407" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta – Kopio.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="38" Width="224" Height="414" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta –  (2).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="39" Width="265" Height="403" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta –  (3).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="40" Width="258" Height="403" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta –  (4).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="41" Width="272" Height="404" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_sivulta –  (5).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="42" Width="148" Height="396" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_sivulta –  (6).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="43" Width="174" Height="368" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (1).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="44" Width="172" Height="367" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (2).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="45" Width="132" Height="392" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (3).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="46" Width="229" Height="395" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (4).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="47" Width="180" Height="374" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (5).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="48" Width="199" Height="366" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (6).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="49" Width="183" Height="401" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (7).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="50" Width="254" Height="405" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (12).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="51" Width="228" Height="345" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (11).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="52" Width="183" Height="414" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (13).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="53" Width="130" Height="246" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (15).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="54" Width="392" Height="542" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (8).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="55" Width="266" Height="538" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (9).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="56" Width="276" Height="540" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (10).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="57" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (14).png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
