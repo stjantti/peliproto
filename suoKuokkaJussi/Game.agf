@@ -1982,9 +1982,9 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\oravannahka erikoinen.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="9" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="9" Width="1024" Height="786" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\orava tavallinen.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\marjametsa_vari_tulva.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="10" Width="168" Height="105" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
