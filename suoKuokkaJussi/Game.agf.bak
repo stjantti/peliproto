@@ -1054,8 +1054,8 @@
     <Cursors>
       <MouseCursor>
         <ID>0</ID>
-        <HotspotX>6</HotspotX>
-        <HotspotY>15</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>17</Image>
         <View>0</View>
@@ -1078,10 +1078,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>2</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>17</Image>
+        <Image>19</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1102,10 +1102,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>4</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>17</Image>
+        <Image>19</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1114,10 +1114,10 @@
       </MouseCursor>
       <MouseCursor>
         <ID>5</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>17</Image>
+        <Image>19</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -1547,17 +1547,7 @@
           </Sprite>
           <Sprite Slot="17" Width="32" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Hanna\Desktop\kursori.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="18" Width="1023" Height="388" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_tulva.png</FileName>
-            </Source>
-          </Sprite>
-          <Sprite Slot="19" Width="630" Height="398" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\pato_joki.png</FileName>
+              <FileName>C:\Users\Hanna\Desktop\kursoriNuoli.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="20" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -1583,6 +1573,26 @@
           <Sprite Slot="17" Width="32" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Desktop\kursori.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="18" Width="31" Height="29" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Desktop\kursoriKenka.gif</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="18" Width="31" Height="29" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Desktop\kursoriKenka.gif</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="19" Width="27" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Desktop\kasikursori.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="19" Width="27" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Desktop\kursoriKasi.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
