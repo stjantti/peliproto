@@ -1216,7 +1216,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>12</SpeechColor>
+            <SpeechColor>1040</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1407,9 +1407,9 @@
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
-            <StartingRoom>6</StartingRoom>
-            <StartX>765</StartX>
-            <StartY>614</StartY>
+            <StartingRoom>8</StartingRoom>
+            <StartX>171</StartX>
+            <StartY>561</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1497,6 +1497,206 @@
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
             <SpeechColor>493</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>8</ID>
+            <ScriptName>cPappilaNPC</ScriptName>
+            <RealName>Joku</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>3</StartingRoom>
+            <StartX>183</StartX>
+            <StartY>505</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>9</ID>
+            <ScriptName>cToriNPC1</ScriptName>
+            <RealName>Joku</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>4</StartingRoom>
+            <StartX>148</StartX>
+            <StartY>326</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>10</ID>
+            <ScriptName>oToriNpc2</ScriptName>
+            <RealName>Hoku</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>4</StartingRoom>
+            <StartX>527</StartX>
+            <StartY>300</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>11</ID>
+            <ScriptName>cToriNPC3</ScriptName>
+            <RealName xml:space="preserve">New character</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>4</StartingRoom>
+            <StartX>322</StartX>
+            <StartY>401</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
+            <Solid>True</Solid>
+            <Clickable>True</Clickable>
+            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaLighting>True</UseRoomAreaLighting>
+            <TurnBeforeWalking>True</TurnBeforeWalking>
+            <DiagonalLoops>True</DiagonalLoops>
+            <AdjustSpeedWithScaling>False</AdjustSpeedWithScaling>
+            <AdjustVolumeWithScaling>False</AdjustVolumeWithScaling>
+            <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
+            <Properties />
+            <Interactions>
+              <Event Index="0" />
+              <Event Index="1" />
+              <Event Index="2" />
+              <Event Index="3" />
+              <Event Index="4" />
+              <Event Index="5" />
+              <Event Index="6" />
+              <Event Index="7" />
+            </Interactions>
+          </Character>
+          <Character>
+            <ID>12</ID>
+            <ScriptName>cMetsa1ToraJyvNPC</ScriptName>
+            <RealName>Joku</RealName>
+            <NormalView>1</NormalView>
+            <SpeechView>0</SpeechView>
+            <IdleView>0</IdleView>
+            <ThinkingView>0</ThinkingView>
+            <BlinkingView>0</BlinkingView>
+            <StartingRoom>6</StartingRoom>
+            <StartX>748</StartX>
+            <StartY>619</StartY>
+            <UniformMovementSpeed>True</UniformMovementSpeed>
+            <MovementSpeed>3</MovementSpeed>
+            <MovementSpeedX>0</MovementSpeedX>
+            <MovementSpeedY>0</MovementSpeedY>
+            <AnimationDelay>4</AnimationDelay>
+            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1982,9 +2182,9 @@
               <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\oravannahka erikoinen.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="9" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="9" Width="1024" Height="786" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>D:\Adventure Game Studio 3.3.0\peliproto\suoKuokkaJussi\kuvat\orava tavallinen.png</FileName>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\marjametsa_vari_tulva.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="10" Width="168" Height="105" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -2077,49 +2277,154 @@
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\kasikursori.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="28" Width="300" Height="546" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="28" Width="220" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_edesta_seisoo.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="29" Width="300" Height="546" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="29" Width="220" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_edesta_kavely1.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="30" Width="300" Height="546" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="30" Width="220" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_edesta_kavely2.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="31" Width="321" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="31" Width="232" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_sivulta_seisoo.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="32" Width="321" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="32" Width="232" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_sivulta_kavely1.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="33" Width="321" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="33" Width="232" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_sivulta_kavely2.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="34" Width="308" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="34" Width="223" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_takaa_seisoo.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="35" Width="308" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="35" Width="223" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_takaa_kavely1.png</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="36" Width="308" Height="553" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+          <Sprite Slot="36" Width="223" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pelihahmo\pelihahmo_takaa_kavely2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="37" Width="233" Height="407" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta – Kopio.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="38" Width="224" Height="414" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta –  (2).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="39" Width="265" Height="403" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta –  (3).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="40" Width="258" Height="403" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_edesta –  (4).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="41" Width="272" Height="404" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_sivulta –  (5).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="42" Width="148" Height="396" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\joku1_sivulta –  (6).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="43" Width="174" Height="368" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (1).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="44" Width="172" Height="367" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (2).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="45" Width="132" Height="392" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (3).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="46" Width="229" Height="395" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (4).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="47" Width="180" Height="374" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (5).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="48" Width="199" Height="366" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (6).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="49" Width="183" Height="401" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (7).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="50" Width="254" Height="405" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (12).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="51" Width="228" Height="345" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (11).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="52" Width="183" Height="414" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (13).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="53" Width="130" Height="246" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (15).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="54" Width="392" Height="542" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (8).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="55" Width="266" Height="538" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (9).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="56" Width="276" Height="540" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (10).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="57" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (14).png</FileName>
             </Source>
           </Sprite>
         </Sprites>
