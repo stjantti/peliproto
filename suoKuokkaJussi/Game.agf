@@ -1547,7 +1547,7 @@
           </Sprite>
           <Sprite Slot="17" Width="32" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Hanna\Desktop\kursoriNuoli.png</FileName>
+              <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\kursoriNuoli.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="20" Width="168" Height="181" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -1580,14 +1580,9 @@
               <FileName>C:\Users\Hanna\Desktop\kursoriKenka.gif</FileName>
             </Source>
           </Sprite>
-          <Sprite Slot="18" Width="31" Height="29" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
-            <Source>
-              <FileName>C:\Users\Hanna\Desktop\kursoriKenka.gif</FileName>
-            </Source>
-          </Sprite>
           <Sprite Slot="19" Width="27" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Hanna\Desktop\kasikursori.png</FileName>
+              <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\kursoriKasi.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="19" Width="27" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
