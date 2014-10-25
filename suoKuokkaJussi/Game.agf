@@ -1809,7 +1809,10 @@ return
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cPappi: What are you staring at? Nothing to see here. 
+cPappi: What are you staring at? Nothing to see here.
+  if(player.HasInventory(iPiirakka)) {
+option-on 3
+  }
 return
 @1
 cPappi: God opposes the proud but gives grace to the humble.
@@ -2019,6 +2022,13 @@ stop]]></Script>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cMaanviljelija: Bad harvest. Don't eat the old flour. You'll get ill.
+  if (!Pappi_kylassa) {
+option-on 2
+option-off 1
+  }
+  if (player.HasInventory(iTaikajyvat)) {
+option-on 3
+  }
 return
 @1
 cMaanviljelija: Crop was hit with Ergot. Makes you sick first, then drives you mad.
