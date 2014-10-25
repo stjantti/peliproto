@@ -1742,24 +1742,32 @@ stop
 cKauppias: I just received a batch of new tinderboxes. I can sell you one right away. Do you have the squirrelskins for it?
 option-off 1
 option-off 2
+  if(Tietaa_Piirakasta) {
 option-on 3
+  }
+  else {
 option-on 4
+  }
 return
 
-//Miten tarkistaa?
+
+//Jos tiet‰‰ piirakan teosta
 @3
 cKauppias: It is two squirrelskins.
-//Jos tiet‰‰ piirakan teosta ja on tarvittava:
-cKauppias: It is two squirrelskins.
+  if (player.HasInventory(iOravannahka)) {
+//Jos on tarvittava:
 cCharacter: I have only one but it certainly looks special.
 cKauppias: Wooa! I am a collector of different kind of money and I have never seen something like this.
 cKauppias: I'll certainly give you the tinderbox for it. And being grateful for you forever.
 cCharacter:: Well See you. I hope you are happy now.
 cKauppias: Indeed I am. See you again here at the shop.
+  }
+  else {
 //muuten jos ei ole oravannahkoja:
 cCharacter: I have none.
 cKauppias: Why you said then that you were going to buy it.
 cKauppias: Well come again when you have something with to pay it with.
+  }
 stop
 
 //Jos ei tied‰ piirakan teosta.
@@ -1783,7 +1791,7 @@ return
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">I'd like to buy a tinderbox. How much is it?</Text>
+                <Text xml:space="preserve">I'd like to buy the tinderbox. How much is it?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
