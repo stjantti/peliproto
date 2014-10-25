@@ -2483,11 +2483,6 @@ stop
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
-        <GlobalVariable>
-          <Name>SquirrelBoss</Name>
-          <Type>bool</Type>
-          <DefaultValue>true</DefaultValue>
-        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
