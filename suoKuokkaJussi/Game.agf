@@ -2008,7 +2008,7 @@ stop
         <HotspotX>0</HotspotX>
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>27</Image>
+        <Image>58</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2710,6 +2710,11 @@ stop
           <Sprite Slot="57" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (14).png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="58" Width="31" Height="29" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\kenkakursori.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
