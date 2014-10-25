@@ -2474,6 +2474,16 @@ stop
           <Type>bool</Type>
           <DefaultValue>true</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>Tietaa_Piirakasta</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Tietaa_Metsanhegen_Toiveen</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
