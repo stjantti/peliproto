@@ -1510,7 +1510,7 @@
             <Interactions>
               <Event Index="0">cKalastaja_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cKalastaja_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1923,49 +1923,45 @@ cKalastaja: Good day to you.
 stop
 @2
 cKalastaja: I'm the village fisherman. Name is Tom.
-CKalastaja: What do you want? I'm busy, lot's to do.
-option-off 2
+cKalastaja: What do you want? I'm busy, lot's to do.
+//option-off 2 //tätä voi kysyä monta kertaa kunnes tehtävä saatu kalastajalta
 return
 @3
-cKalastaja: Would you? that's very kind of you.
+cKalastaja: Would you? That's very kind of you.
 cKalastaja: Could you repair my fishing net for me? It's torn.
 cCharacter: Of course!
 cKalastaja: You can find it hanging on the wall of my cottage.
 cKalastaja: Stop by when you have repaired it. 
 cKalastaja: I might be able to give you something for your trouble.
-//option-off-forever 1
-//option-off-forever 2
-//option-off-forever 3
-//Mutta sitten olisi tarkastettava onko tämä käyty ja mennä kuutoseen.
+option-off-forever 1
+option-off-forever 2
+option-off-forever 3
+option-on 4
 stop
-//muista kentän scriptissä poistaa kolmoskohdan jälkeen keskusteluvaihtoehdot 2 ja 3
 
-//vaihtoehto 4 on otettava käyttöön sitten kun verkot on korjattu
 @4
+cKalastaja: Well I was asking you to repair my fishing net.
+cKalastaja: I'll give you something in return for it of course.
+cCharacter: Okey. I'll do it and try to not forget it again.
+cKalastaja: You better not.
+stop
+
+//vaihtoehto 5 on otettava käyttöön sitten kun verkot on korjattu (kalstusmajalla)
+@5
 cKalastaja: Really? Thank you. Here, I have this old map of the woods up north.
 cKalastaja: I hope you find some use for it.
 option-off-forever 1
 option-off-forever 2
 option-off-forever 3
 option-off-forever 4
+option-on 6
 stop
-//vaihtoehto neljän läpikäymisen jälkeen vaihtoehto 5 aktivoidaan, muut deaktivoidaan
+//vaihtoehto 5n läpikäymisen jälkeen vaihtoehto 6 aktivoidaan, muut deaktivoidaan
 //jolloin pelaaja voi sanoa kalastajalle enää vain "Hello again"
 
-@5
-cKalastaja: Oh, it's you. Thank you for repairing my fishing net.
-stop
-
-//Daniel: Lisäsin tämän, sillä jos pelaaja unohtaa(tai muuten vaan)
-//haluaa puhua kalastajan kannsa uudelleen sen jälkeen kun on puhuttu jo 3
-// En tiedä miten tarkastaa onko jo puhuttu.
 @6
-cKalastaja: Well I was asking you to repair my fishing net.
-cKalastaja: I'll give you something in return for it of course.
-cCharacter: Okey. I'll do it and try to not forget it again.
-cKalastaja: Better to not do so.
-stop
-]]></Script>
+cKalastaja: Oh, it's you. Thank you for repairing my fishing net.
+stop]]></Script>
             <DialogOptions>
               <DialogOption>
                 <ID>1</ID>
@@ -1987,19 +1983,19 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>4</ID>
-                <Text xml:space="preserve">I repaired your fishing net.</Text>
+                <Text xml:space="preserve">Could you tell me again what I was supposed to do?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>5</ID>
-                <Text xml:space="preserve">Hello again.</Text>
+                <Text xml:space="preserve">I repaired your fishing net.</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
               <DialogOption>
                 <ID>6</ID>
-                <Text xml:space="preserve">Could you tell me again what I was supossed to do?</Text>
+                <Text xml:space="preserve">Hello again.</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
