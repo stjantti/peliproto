@@ -1522,7 +1522,7 @@
             <ID>8</ID>
             <ScriptName>cPappilaNPC</ScriptName>
             <RealName>Joku</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>10</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -1535,7 +1535,7 @@
             <MovementSpeedX>0</MovementSpeedX>
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
-            <SpeechAnimationDelay>5</SpeechAnimationDelay>
+            <SpeechAnimationDelay>0</SpeechAnimationDelay>
             <SpeechColor>12</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
@@ -1562,7 +1562,7 @@
             <ID>9</ID>
             <ScriptName>cToriNPC1</ScriptName>
             <RealName>Joku</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>11</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -1602,7 +1602,7 @@
             <ID>10</ID>
             <ScriptName>oToriNpc2</ScriptName>
             <RealName>Hoku</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>12</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -1642,7 +1642,7 @@
             <ID>11</ID>
             <ScriptName>cToriNPC3</ScriptName>
             <RealName xml:space="preserve">New character</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>13</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -1682,7 +1682,7 @@
             <ID>12</ID>
             <ScriptName>cMetsa1ToraJyvNPC</ScriptName>
             <RealName>Joku</RealName>
-            <NormalView>1</NormalView>
+            <NormalView>9</NormalView>
             <SpeechView>0</SpeechView>
             <IdleView>0</IdleView>
             <ThinkingView>0</ThinkingView>
@@ -3213,6 +3213,256 @@ stop
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>9</ID>
+            <Name>ViewMet1TJNPC</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>41</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>41</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>41</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>10</ID>
+            <Name>ViewPappilaNPC</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>42</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>11</ID>
+            <Name>ViewToriNPC1</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>40</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>12</ID>
+            <Name>ViewToriNPC2</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>37</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>1</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>2</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+              <Loop>
+                <ID>3</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>13</ID>
+            <Name>ViewToriNPC3</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>39</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
