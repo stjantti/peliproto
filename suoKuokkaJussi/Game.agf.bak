@@ -1310,7 +1310,7 @@
             <Interactions>
               <Event Index="0">cMaanviljelija_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cMaanviljelija_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2033,7 +2033,8 @@ cMaanviljelija: I told you, didn't I? Told him as well.
 cMaanviljelija: Mad bastard. Warned him I did.
 stop
 
-//vaihtoehto 3 avataan kun hengelt‰ on saatu uudet jyvat
+//vaihtoehto 3 avataan kun hengelt‰ on saatu uudet jyvat 
+//tarkistus aina kun maanviljelij‰lle puhutaan, uusien jyvien pit‰‰ olla inventaariossa
 @3
 cMaanviljelija: Why not.
 cMaanviljelija: Can't get any worse than this.
