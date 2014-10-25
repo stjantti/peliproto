@@ -1510,7 +1510,7 @@
             <Interactions>
               <Event Index="0">cKalastaja_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cKalastaja_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1867,6 +1867,22 @@ option-on 2
 return
 @2
 cMummeli: Heehee! Forest is flooded, no berries, no pie! Heehee!
+option-off 2
+option-on 3
+stop
+@3
+cMummeli: Heehee! Vicar's in the well, little Tommy tell.
+cMummeli: Who put him down there?
+cMummeli: Little Tommy did.
+stop
+
+// vaihtoehto 4 avataan kun tiedetään hengen antama tehtävä
+@4
+cMummeli: Heehee! Why do you ask?
+cCharacter: Do you know how to get him to leave the village?
+cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
+cMummeli: Heehee! Throw him some and watch him run after it like a dog!
+cMummeli: Heehee! Our pious reverend, the dog! Heehee!
 stop
 ]]></Script>
             <DialogOptions>
@@ -1879,7 +1895,19 @@ stop
               <DialogOption>
                 <ID>2</ID>
                 <Text xml:space="preserve">Can't get ... pie?</Text>
-                <Show>True</Show>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">Hello Again.</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Text xml:space="preserve">Pardon me, do you know anything about the vicar?</Text>
+                <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
             </DialogOptions>
@@ -1890,24 +1918,13 @@ stop
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
-cMummeli: Heehee! Vicar's in well, little Tommy tell.
+
 return
 @1
-cMummeli: Heehee! Why do you ask?
-cCharacter: Do you know how to get him to leave the village?
-cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
-cMummeli: Heehee! Throw him some and watch him run after it like a dog!
-cMummeli: Heehee! Our pious reverend, the dog! Heehee!
+
 stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text xml:space="preserve">Pardon me, do you know anything about the vicar?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
+            <DialogOptions />
           </Dialog>
           <Dialog>
             <ID>5</ID>
