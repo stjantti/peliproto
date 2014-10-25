@@ -1886,7 +1886,8 @@ return
 cMummeli: Heehee! Forest is flooded, no berries, no pie! Heehee!
 option-off 2
  if (Tietaa_Metsanhegen_Toiveen) {
-return
+  //RUN_DIALOG_RETURN //Toimiiko?
+  //retuRn suoraan ei toimi (jos kirjoittaa retu... niin otta käskyn jopa kommenttien sisältä!
   }
 stop
 @3
@@ -1953,7 +1954,7 @@ cKalastaja: I'm the village fisherman. Name is Tom.
 cKalastaja: What do you want? I'm busy, lot's to do.
 //option-off 2 //tätä voi kysyä monta kertaa kunnes tehtävä saatu kalastajalta
   if(player.HasInventory(iKartta)) {
-option on 6
+option-on 6
   }
   else if (Verkot_Korjattu) {
 option-on 5
