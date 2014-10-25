@@ -1739,23 +1739,11 @@ return
 cKauppias: Let me know if I can help you.
 stop
 @2
-cKauppias: I just received a batch of new tinderboxes. I can sell you one right away. Do you have the squirrelskins for it?
-otion-off 1
-option-off 2
-option-on 3
-option-on 4
+cKauppias: I just received a batch of new tinderboxes. I can sell you one right away. Do you have the squirrelskins for it? 
 return
-//Jos tietää piirakan teosta ja on tarvittava.
 @3
 cKauppias: Of course. Have a nice day and welcome again.
-//muuten:
 stop
-
-//Jos ei tiedä piirakan teosta.
-@4
-cKauppias: Well you should buy it anyway.
-cKauppias: You may very well regret later not buying it.
-return
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -1773,12 +1761,6 @@ return
               <DialogOption>
                 <ID>3</ID>
                 <Text xml:space="preserve">I'd like to buy a tinderbox.</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>4</ID>
-                <Text xml:space="preserve">Sorry but I am not interested on it.</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -2004,7 +1986,7 @@ cMaanviljelija: Bad harvest. Don't eat the old flour. You'll get ill.
 return
 @1
 cMaanviljelija: Crop was hit with Ergot. Makes you sick first, then drives you mad.
-cMaanviljelija: Causes St.Anthony's Fire. The reverend won't listen to me. That fool.
+cMaanviljelija: Causes St.Anthony's Fire. The reverend won't listen to me. Fool.
 cMaanviljelija: Soon he'll see, cupboards full of old harvest.
 cMaanviljelija: He's already feeling unwell. The fool. soon he'll see.
 stop
