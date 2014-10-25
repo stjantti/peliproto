@@ -1350,7 +1350,7 @@
             <Interactions>
               <Event Index="0">cPappi_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cPappi_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1390,7 +1390,7 @@
             <Interactions>
               <Event Index="0">cPapinApulainen_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cPapinApulainen_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1430,7 +1430,7 @@
             <Interactions>
               <Event Index="0">cMummeli_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cMummeli_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1470,7 +1470,7 @@
             <Interactions>
               <Event Index="0">ckauppias_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">ckauppias_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1752,14 +1752,14 @@ cKauppias: It is two squirrelskins.
 //Jos tiet‰‰ piirakan teosta ja on tarvittava:
 cKauppias: It is two squirrelskins.
 cCharacter: I have only one but it certainly looks special.
-cKauppias: Wooa! I am a collector of diffetent kind of money and I have never seen something like this.
+cKauppias: Wooa! I am a collector of different kind of money and I have never seen something like this.
 cKauppias: I'll certainly give you the tinderbox for it. And being grateful for you forever.
 cCharacter:: Well See you. I hope you are happy now.
 cKauppias: Indeed I am. See you again here at the shop.
 //muuten jos ei ole oravannahkoja:
 cCharacter: I have none.
 cKauppias: Why you said then that you were going to buy it.
-cKauppias: Well come again when you have get somethin with to pay for.
+cKauppias: Well come again when you have something with to pay it with.
 stop
 
 //Jos ei tied‰ piirakan teosta.
@@ -1853,7 +1853,7 @@ stop
           </Dialog>
           <Dialog>
             <ID>3</ID>
-            <Name>dMummeli_1</Name>
+            <Name>dMummeli</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
@@ -1867,6 +1867,22 @@ option-on 2
 return
 @2
 cMummeli: Heehee! Forest is flooded, no berries, no pie! Heehee!
+option-off 2
+option-on 3
+stop
+@3
+cMummeli: Heehee! Vicar's in the well, little Tommy tell.
+cMummeli: Who put him down there?
+cMummeli: Little Tommy did.
+stop
+
+// vaihtoehto 4 avataan kun tiedet‰‰n hengen antama teht‰v‰ (kentt‰ 15 tai keskustelu hengen kanssa)
+@4
+cMummeli: Heehee! Why do you ask?
+cCharacter: Do you know how to get him to leave the village?
+cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
+cMummeli: Heehee! Throw him some and watch him run after it like a dog!
+cMummeli: Heehee! Our pious reverend, the dog! Heehee!
 stop
 ]]></Script>
             <DialogOptions>
@@ -1879,38 +1895,25 @@ stop
               <DialogOption>
                 <ID>2</ID>
                 <Text xml:space="preserve">Can't get ... pie?</Text>
-                <Show>True</Show>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">Hello Again.</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Text xml:space="preserve">Pardon me, do you know anything about the vicar?</Text>
+                <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
             </DialogOptions>
           </Dialog>
           <Dialog>
             <ID>4</ID>
-            <Name>dMummeli_2</Name>
-            <ShowTextParser>False</ShowTextParser>
-            <Script><![CDATA[// Dialog script file
-@S  // Dialog startup entry point
-cMummeli: Heehee! Vicar's in well, little Tommy tell.
-return
-@1
-cMummeli: Heehee! Why do you ask?
-cCharacter: Do you know how to get him to leave the village?
-cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
-cMummeli: Heehee! Throw him some and watch him run after it like a dog!
-cMummeli: Heehee! Our pious reverend, the dog! Heehee!
-stop
-]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text xml:space="preserve">Pardon me, do you know anything about the vicar?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
-          </Dialog>
-          <Dialog>
-            <ID>5</ID>
             <Name>dKalastaja</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
@@ -2002,7 +2005,7 @@ stop]]></Script>
             </DialogOptions>
           </Dialog>
           <Dialog>
-            <ID>6</ID>
+            <ID>5</ID>
             <Name>dMaanviljelija</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
