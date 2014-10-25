@@ -1228,7 +1228,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cCharacter_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1308,7 +1308,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cMaanviljelija_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1508,7 +1508,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cKalastaja_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1548,7 +1548,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cPappilaNPC_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1588,7 +1588,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cToriNPC1_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1628,7 +1628,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">oToriNpc2_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1668,7 +1668,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cToriNPC3_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
@@ -1708,7 +1708,7 @@
             <MovementLinkedToAnimation>True</MovementLinkedToAnimation>
             <Properties />
             <Interactions>
-              <Event Index="0" />
+              <Event Index="0">cMetsa1ToraJyvNPC_Look</Event>
               <Event Index="1" />
               <Event Index="2" />
               <Event Index="3" />
