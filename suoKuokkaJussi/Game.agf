@@ -1895,6 +1895,7 @@ stop
 @2
 cKalastaja: I'm the village fisherman. Name is Tom.
 CKalastaja: What do you want? I'm busy, lot's to do.
+option-off 2
 return
 @3
 cKalastaja: Would you? that's very kind of you.
@@ -1903,6 +1904,10 @@ cCharacter: Of course!
 cKalastaja: You can find it hanging on the wall of my cottage.
 cKalastaja: Stop by when you have repaired it. 
 cKalastaja: I might be able to give you something for your trouble.
+//option-off-forever 1
+//option-off-forever 2
+//option-off-forever 3
+//Mutta sitten olisi tarkastettava onko tämä käyty ja mennä kuutoseen.
 stop
 //muista kentän scriptissä poistaa kolmoskohdan jälkeen keskusteluvaihtoehdot 2 ja 3
 
@@ -1910,12 +1915,26 @@ stop
 @4
 cKalastaja: Really? Thank you. Here, I have this old map of the woods up north.
 cKalastaja: I hope you find some use for it.
+option-off-forever 1
+option-off-forever 2
+option-off-forever 3
+option-off-forever 4
 stop
 //vaihtoehto neljän läpikäymisen jälkeen vaihtoehto 5 aktivoidaan, muut deaktivoidaan
 //jolloin pelaaja voi sanoa kalastajalle enää vain "Hello again"
 
 @5
 cKalastaja: Oh, it's you. Thank you for repairing my fishing net.
+stop
+
+//Daniel: Lisäsin tämän, sillä jos pelaaja unohtaa(tai muuten vaan)
+//haluaa puhua kalastajan kannsa uudelleen sen jälkeen kun on puhuttu jo 3
+// En tiedä miten tarkastaa onko jo puhuttu.
+@6
+cKalastaja: Well I was asking you to repair my fishing net.
+cKalastaja: I'll give you something in return for it of course.
+cCharacter: Okey. I'll do it and try to not forget it again.
+cKalastaja: Better to not do so.
 stop
 ]]></Script>
             <DialogOptions>
@@ -1946,6 +1965,12 @@ stop
               <DialogOption>
                 <ID>5</ID>
                 <Text xml:space="preserve">Hello again.</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>6</ID>
+                <Text xml:space="preserve">Could you tell me again what I was supossed to do?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
