@@ -1748,10 +1748,18 @@ return
 
 //Miten tarkistaa?
 @3
+cKauppias: It is two squirrelskins.
 //Jos tiet‰‰ piirakan teosta ja on tarvittava:
-cKauppias: Of course. Have a nice day and welcome again.
+cKauppias: It is two squirrelskins.
+cCharacter: I have only one but it certainly looks special.
+cKauppias: Wooa! I am a collector of diffetent kind of money and I have never seen something like this.
+cKauppias: I'll certainly give you the tinderbox for it. And being grateful for you forever.
+cCharacter:: Well See you. I hope you are happy now.
+cKauppias: Indeed I am. See you again here at the shop.
 //muuten jos ei ole oravannahkoja:
-//cKauppias: You don't have the squirrelskins. I am sorry but I can't sell it to you.
+cCharacter: I have none.
+cKauppias: Why you said then that you were going to buy it.
+cKauppias: Well come again when you have get somethin with to pay for.
 stop
 
 //Jos ei tied‰ piirakan teosta.
@@ -1775,7 +1783,7 @@ return
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">I'd like to buy a tinderbox.</Text>
+                <Text xml:space="preserve">I'd like to buy a tinderbox. How much is it?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -3644,24 +3652,24 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Music</Name>
         <TypeID>2</TypeID>
+        <Name>Music</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <Name>Sound</Name>
         <TypeID>3</TypeID>
+        <Name>Sound</Name>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
