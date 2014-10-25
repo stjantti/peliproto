@@ -2781,6 +2781,11 @@ stop
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\suukursori.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="61" Width="190" Height="168" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\verkko_rikki.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
