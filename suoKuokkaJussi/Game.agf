@@ -1336,7 +1336,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>0</SpeechColor>
+            <SpeechColor>33808</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1376,7 +1376,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>16904</SpeechColor>
+            <SpeechColor>50712</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1737,13 +1737,13 @@ cKauppias: Hello! How can I help you?
 return
 @1
 cKauppias: Let me know if I can help you.
-return
+stop
 @2
 cKauppias: I just received a batch of new tinderboxes. I can sell you one right away. Do you have the squirrelskins for it? 
 return
 @3
 cKauppias: Of course. Have a nice day and welcome again.
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -1777,17 +1777,18 @@ return
 @1
 cPappi: God opposes the proud but gives grace to the humble.
 CPappi: Be on your way already!
-return
+stop
 @2
 cPappi: Go to your work! 'You who are younger, submit yourselves to your elders.'
-return
+stop
+//Kun piirakka on inventaariossa
 @3
 cPappi: Pardon me?
 cCharacter: Pie, Sir. I found blueberries and lingonberries and made a pie.
 cCharacter: I heard that You like pie. Perhaps You would grace me by trying it?
 cPappi: But certainly, my dear. I am glad to see that some people here honour their leaders appropriately.
 cPappi: How delicious it looks. Thank you very much for this gift.
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -1817,7 +1818,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cPapinApulainen: The reverend is busy. Please go on with your duties.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1832,10 +1833,12 @@ cMummeli: Heehee, now he gets to act as he preaches.
 return
 @1
 cMummeli: Humility! Heehee! Poor chap can't even get himself some pie. Heehee!
+option-off 1
+option-on 2
 return
 @2
 cMummeli: Heehee! Forest is flooded, no berries, no pie! Heehee!
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -1866,7 +1869,7 @@ cCharacter: Do you know how to get him to leave the village?
 cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
 cMummeli: Heehee! Throw him some and watch him run after it like a dog!
 cMummeli: Heehee! Our pious reverend, the dog! Heehee!
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
