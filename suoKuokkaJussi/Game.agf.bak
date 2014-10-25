@@ -1877,6 +1877,125 @@ return
               </DialogOption>
             </DialogOptions>
           </Dialog>
+          <Dialog>
+            <ID>5</ID>
+            <Name>dKalastaja</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cCharacter: Hello!
+cKalastaja: What do you need? I'm in a hurry.
+return
+@1
+cKalastaja: Good day to you.
+stop
+@2
+cKalastaja: I'm the village fisherman. Name is Tom.
+CKalastaja: What do you want? I'm busy, lot's to do.
+return
+@3
+cKalastaja: Would you? that's very kind of you.
+cKalastaja: Could you repair my fishing net for me? It's torn.
+cCharacter: Of course!
+cKalastaja: You can find it hanging on the wall of my cottage.
+cKalastaja: Stop by when you have repaired it. 
+cKalastaja: I might be able to give you something for your trouble.
+stop
+//muista kentän scriptissä poistaa kolmoskohdan jälkeen keskusteluvaihtoehdot 2 ja 3
+
+//vaihtoehto 4 on otettava käyttöön sitten kun verkot on korjattu
+@4
+cKalastaja: Really? Thank you. Here, I have this old map of the woods up north.
+cKalastaja: I hope you find some use for it.
+stop
+//vaihtoehto neljän läpikäymisen jälkeen vaihtoehto 5 aktivoidaan, muut deaktivoidaan
+//jolloin pelaaja voi sanoa kalastajalle enää vain "Hello again"
+
+@5
+cKalastaja: Oh, it's you. Thank you for repairing my fishing net.
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">Sorry to bother you. Goodbye.</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Who are you?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">Can I help you?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>4</ID>
+                <Text xml:space="preserve">I repaired your fishing net.</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>5</ID>
+                <Text xml:space="preserve">Hello again.</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>6</ID>
+            <Name>dMaanviljelija</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMaanviljelija: Bad harvest. Don't eat the old flour. You'll get ill.
+return
+@1
+cMaanviljelija: Crop was hit with Ergot. Makes you sick first, then drives you mad.
+cMaanviljelija: Causes St.Anthony's Fire. The reverend won't listen to me. Fool.
+cMaanviljelija: Soon he'll see, cupboards full of old harvest.
+cMaanviljelija: He's already feeling unwell. The fool. soon he'll see.
+stop
+
+//vaihtoehto 2 avataan kun pappi tullut hulluksi
+@2
+cMaanviljelija: I told you, didn't I? Told him as well.
+cMaanviljelija: Mad bastard. Warned him I did.
+stop
+
+//vaihtoehto 3 avataan kun hengeltä on saatu uudet jyvat
+@3
+cMaanviljelija: Why not.
+cMaanviljelija: Can't get any worse than this.
+stop
+]]></Script>
+            <DialogOptions>
+              <DialogOption>
+                <ID>1</ID>
+                <Text xml:space="preserve">How do you mean ill?</Text>
+                <Show>True</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>2</ID>
+                <Text xml:space="preserve">Did you hear about the vicar?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+              <DialogOption>
+                <ID>3</ID>
+                <Text xml:space="preserve">I have new crop here. Can I sow them?</Text>
+                <Show>False</Show>
+                <Say>True</Say>
+              </DialogOption>
+            </DialogOptions>
+          </Dialog>
         </Dialogs>
       </DialogFolder>
     </Dialogs>
