@@ -1767,6 +1767,7 @@ cKauppias: Indeed I am. See you again here at the shop.
 cCharacter: I have none.
 cKauppias: Why you said then that you were going to buy it.
 cKauppias: Well come again when you have something with to pay it with.
+  Tietaa_Oravnnahkamaksun = true;
   }
 stop
 
@@ -2533,6 +2534,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>Tietaa_Kalastajan_Pyynnon</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Tietaa_Oravnnahkamaksun</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
