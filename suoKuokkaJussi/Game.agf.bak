@@ -1740,7 +1740,7 @@ cKauppias: Let me know if I can help you.
 stop
 @2
 cKauppias: I just received a batch of new tinderboxes. I can sell you one right away. Do you have the squirrelskins for it?
-otion-off 1
+option-off 1
 option-off 2
 option-on 3
 option-on 4
@@ -3639,8 +3639,8 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
