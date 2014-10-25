@@ -1737,13 +1737,13 @@ cKauppias: Hello! How can I help you?
 return
 @1
 cKauppias: Let me know if I can help you.
-return
+stop
 @2
 cKauppias: I just received a batch of new tinderboxes. I can sell you one right away. Do you have the squirrelskins for it? 
 return
 @3
 cKauppias: Of course. Have a nice day and welcome again.
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -1817,7 +1817,7 @@ return
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
 cPapinApulainen: The reverend is busy. Please go on with your duties.
-return
+stop
 ]]></Script>
             <DialogOptions />
           </Dialog>
@@ -1832,10 +1832,12 @@ cMummeli: Heehee, now he gets to act as he preaches.
 return
 @1
 cMummeli: Humility! Heehee! Poor chap can't even get himself some pie. Heehee!
+option-off 1
+option-on 2
 return
 @2
 cMummeli: Heehee! Forest is flooded, no berries, no pie! Heehee!
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -1866,7 +1868,7 @@ cCharacter: Do you know how to get him to leave the village?
 cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
 cMummeli: Heehee! Throw him some and watch him run after it like a dog!
 cMummeli: Heehee! Our pious reverend, the dog! Heehee!
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
