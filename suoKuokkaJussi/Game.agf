@@ -2066,10 +2066,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>3</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
-        <Image>26</Image>
+        <Image>60</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2745,6 +2745,11 @@ stop
           <Sprite Slot="59" Width="31" Height="29" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\silmäkursori.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="60" Width="31" Height="29" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\peliproto\suoKuokkaJussi\kuvat\suukursori.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
