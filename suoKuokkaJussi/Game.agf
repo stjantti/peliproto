@@ -1336,7 +1336,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>0</SpeechColor>
+            <SpeechColor>33808</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1376,7 +1376,7 @@
             <MovementSpeedY>0</MovementSpeedY>
             <AnimationDelay>4</AnimationDelay>
             <SpeechAnimationDelay>5</SpeechAnimationDelay>
-            <SpeechColor>16904</SpeechColor>
+            <SpeechColor>50712</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
             <UseRoomAreaScaling>True</UseRoomAreaScaling>
@@ -1777,17 +1777,18 @@ return
 @1
 cPappi: God opposes the proud but gives grace to the humble.
 CPappi: Be on your way already!
-return
+stop
 @2
 cPappi: Go to your work! 'You who are younger, submit yourselves to your elders.'
-return
+stop
+//Kun piirakka on inventaariossa
 @3
 cPappi: Pardon me?
 cCharacter: Pie, Sir. I found blueberries and lingonberries and made a pie.
 cCharacter: I heard that You like pie. Perhaps You would grace me by trying it?
 cPappi: But certainly, my dear. I am glad to see that some people here honour their leaders appropriately.
 cPappi: How delicious it looks. Thank you very much for this gift.
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
