@@ -1870,6 +1870,12 @@ stop
 @S  // Dialog startup entry point
 cMummeli: Heehee, that reverend of ours, so full of himself.
 cMummeli: Heehee, now he gets to act as he preaches.
+  if (Tietaa_Metsanhegen_Toiveen) {
+option-on 4    
+  }
+  if (Tietaa_Piirakasta) {
+option-on 3
+  }
 return
 @1
 cMummeli: Humility! Heehee! Poor chap can't even get himself some pie. Heehee!
@@ -1879,7 +1885,9 @@ return
 @2
 cMummeli: Heehee! Forest is flooded, no berries, no pie! Heehee!
 option-off 2
-option-on 3
+ if (Tietaa_Metsanhegen_Toiveen) {
+return
+  }
 stop
 @3
 cMummeli: Heehee! Vicar's in the well, little Tommy tell.
@@ -1893,7 +1901,12 @@ cMummeli: Heehee! Why do you ask?
 cCharacter: Do you know how to get him to leave the village?
 cMummeli: Heehee! Do I?! Heehee! Poor chap can't get himself any pie!
 cMummeli: Heehee! Throw him some and watch him run after it like a dog!
+cMummeli: So mad he is, so much he like pie...hee,hee,hee... 
 cMummeli: Heehee! Our pious reverend, the dog! Heehee!
+  Tietaa_Piirakasta = true;
+option-off-forever 1
+option-off-forever 2
+option-off-forever 4
 stop
 ]]></Script>
             <DialogOptions>
@@ -1939,6 +1952,15 @@ stop
 cKalastaja: I'm the village fisherman. Name is Tom.
 cKalastaja: What do you want? I'm busy, lot's to do.
 //option-off 2 //tätä voi kysyä monta kertaa kunnes tehtävä saatu kalastajalta
+  if(player.HasInventory(iKartta)) {
+option on 6
+  }
+  else if (Verkot_Korjattu) {
+option-on 5
+  }
+  else if (Tietaa_Kalastajan_Pyynnon) {
+option-on 4
+  }
 return
 @3
 cKalastaja: Would you? That's very kind of you.
@@ -1950,7 +1972,7 @@ cKalastaja: I might be able to give you something for your trouble.
 option-off-forever 1
 option-off-forever 2
 option-off-forever 3
-option-on 4
+  Tietaa_Kalastajan_Pyynnon = true;
 stop
 
 @4
@@ -1967,7 +1989,8 @@ cKalastaja: I hope you find some use for it.
 option-off-forever 1
 option-off-forever 2
 option-off-forever 3
-option-off-forever 4
+option-off-forever 4 //turhaa koodia
+option-off-forever 5 //turhaa koodia
 option-on 6
 stop
 //vaihtoehto 5n läpikäymisen jälkeen vaihtoehto 6 aktivoidaan, muut deaktivoidaan
@@ -2499,6 +2522,16 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>Tietaa_Metsanhegen_Toiveen</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Verkot_Korjattu</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Tietaa_Kalastajan_Pyynnon</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
