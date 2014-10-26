@@ -1448,8 +1448,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>16</StartingRoom>
-            <StartX>643</StartX>
-            <StartY>371</StartY>
+            <StartX>536</StartX>
+            <StartY>503</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
