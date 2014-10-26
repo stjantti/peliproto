@@ -1757,7 +1757,7 @@ cKauppias: It is two squirrelskins.
   if (player.HasInventory(iOravannahka)) {
 //Jos on tarvittava:
 cCharacter: I have only one but it certainly looks special.
-cKauppias: Wooa! I am a collector of different kind of money and I have never seen something like this.
+cKauppias: Wooaa! I am a collector of different kind of money and I have never seen something like this.
 cKauppias: I'll certainly give you the tinderbox for it. And being grateful for you forever.
 cCharacter:: Well See you. I hope you are happy now.
 cKauppias: Indeed I am. See you again here at the shop.
@@ -1765,6 +1765,7 @@ option-off-forever 4
 option-off-forever 2
 option-off-forever 3
   player.AddInventory(iTulukset);
+  player.LoseInventory(iOravannahka);
   }
   else {
 //muuten jos ei ole oravannahkoja:
@@ -2127,6 +2128,17 @@ cPappilaNPC: The lack of food is terrible.
 cCharacter: It is indeed.
 stop
 
+]]></Script>
+            <DialogOptions />
+          </Dialog>
+          <Dialog>
+            <ID>7</ID>
+            <Name>dMetsanHenki</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cMetHen: What do you want simple mortal?
+return
 ]]></Script>
             <DialogOptions />
           </Dialog>
