@@ -1328,8 +1328,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>3</StartingRoom>
-            <StartX>659</StartX>
-            <StartY>502</StartY>
+            <StartX>661</StartX>
+            <StartY>470</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1339,7 +1339,7 @@
             <SpeechColor>33808</SpeechColor>
             <Solid>True</Solid>
             <Clickable>True</Clickable>
-            <UseRoomAreaScaling>True</UseRoomAreaScaling>
+            <UseRoomAreaScaling>False</UseRoomAreaScaling>
             <UseRoomAreaLighting>True</UseRoomAreaLighting>
             <TurnBeforeWalking>True</TurnBeforeWalking>
             <DiagonalLoops>True</DiagonalLoops>
@@ -1369,7 +1369,7 @@
             <BlinkingView>0</BlinkingView>
             <StartingRoom>3</StartingRoom>
             <StartX>815</StartX>
-            <StartY>513</StartY>
+            <StartY>514</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1875,6 +1875,7 @@ cPappi: How delicious it looks. Thank you very much for this gift.
   player.Say("Pardon me, Sir, but that is your rosebush.");
   cPappi.SayBackground("A burning bush! It is an omen! I am in a cage! Who put me in a cage?!?");
   //Pitäisikö olla papin apulaisen ryntämisanimaatio?
+  cPapinApulainen.Walk(640, 380); //ei toimi
   cPapinApulainen.Say("Sir? Sir? How are you feeling? Why are you trying to demolish your fence?");
   cPappi.Say("Protect yourself from the evil spirits! Stone them! Burn them!");
   cPapinApulainen.Say("I thought you rather liked birds..?");
