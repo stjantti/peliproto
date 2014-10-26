@@ -2196,10 +2196,10 @@ stop
       </MouseCursor>
       <MouseCursor>
         <ID>5</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>27</Image>
+        <Image>62</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2886,6 +2886,11 @@ stop
           <Sprite Slot="61" Width="190" Height="168" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\verkko_rikki.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="62" Width="27" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\käsi2.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
