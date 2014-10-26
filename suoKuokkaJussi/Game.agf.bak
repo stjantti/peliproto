@@ -2139,10 +2139,10 @@ stop
 //Daniel: Sekavaa seurata, tied‰n sen. Kannattaa vain kokeilla peliss‰.
 @S  // Dialog startup entry point
   if (!Puhuttu_Metsahengen_Kanssa) {
-cMetHen: What do you want simple mortal?
+cMetHen: What do you want simple mortal? //Vain ensimm‰isen kerran sanoo t‰m‰n.
   }
   else {
-cMethen: ...
+cMethen: "..." //Mets‰nhenki ei sano mit‰‰n.
 option-on 2
   }
   
@@ -2157,7 +2157,7 @@ return
 @1
 cMetHen: Then not disturb me!
 cCharacter: Forgive my intrusion, I take my leave now.
-cMetHen: ...
+cMetHen: "..."
 stop
 @2
 //Daniel: Minulla meni v‰h‰n yli kirjoittaessa t‰t‰.
@@ -2195,7 +2195,7 @@ option-off-forever 2
 stop
 @3
   if(Pappi_kylassa) {
-cCharacter: He is still in the village. And his lacky too.
+cCharacter: The priest is still in the village. And his lacky too.
 cMetHen: Get rid of them...
   }
   else {
@@ -2203,7 +2203,7 @@ cCharacter: I was able to make the priest to become mad. He and his servant heve
 cMetHen: ...
 cCharacter: They are away now. Will you give what you promised?
 cMetHen: You have done well. Inded I will fulfill my promise to you.
-cMetHen: Take the bag of seeds and sow the seed on your fileds.
+cMetHen: Take the bag of seeds and sow the seeds on your fileds.
 cCharacter: Thank you.
   player.AddInventory(iTaikajyvat);
 option-off-forever 3
@@ -2239,7 +2239,7 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>3</ID>
-                <Text xml:space="preserve">About the priest...</Text>
+                <Text xml:space="preserve">About what you asked me to do...</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
