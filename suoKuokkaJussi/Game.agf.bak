@@ -1761,6 +1761,9 @@ cKauppias: Wooa! I am a collector of different kind of money and I have never se
 cKauppias: I'll certainly give you the tinderbox for it. And being grateful for you forever.
 cCharacter:: Well See you. I hope you are happy now.
 cKauppias: Indeed I am. See you again here at the shop.
+option-off-forever 4
+option-off-forever 2
+option-off-forever 3
   }
   else {
 //muuten jos ei ole oravannahkoja:
@@ -1770,12 +1773,11 @@ cKauppias: Well come again when you have something with to pay it with.
   Tietaa_Oravnnahkamaksun = true;
   }
 stop
-
 //Jos ei tiedä piirakan teosta.
 @4
 cKauppias: Well you should buy it anyway.
 cKauppias: You may very well regret later not having bought it.
-return
+stop
 ]]></Script>
             <DialogOptions>
               <DialogOption>
@@ -1946,14 +1948,6 @@ stop
 @S  // Dialog startup entry point
 cCharacter: Hello!
 cKalastaja: What do you need? I'm in a hurry.
-return
-@1
-cKalastaja: Good day to you.
-stop
-@2
-cKalastaja: I'm the village fisherman. Name is Tom.
-cKalastaja: What do you want? I'm busy, lot's to do.
-//option-off 2 //tätä voi kysyä monta kertaa kunnes tehtävä saatu kalastajalta
   if(player.HasInventory(iKartta)) {
 option-on 6
   }
@@ -1963,6 +1957,14 @@ option-on 5
   else if (Tietaa_Kalastajan_Pyynnon) {
 option-on 4
   }
+return
+@1
+cKalastaja: Good day to you.
+stop
+@2
+cKalastaja: I'm the village fisherman. Name is Tom.
+cKalastaja: What do you want? I'm busy, lot's to do.
+//option-off 2 //tätä voi kysyä monta kertaa kunnes tehtävä saatu kalastajalta
 return
 @3
 cKalastaja: Would you? That's very kind of you.
