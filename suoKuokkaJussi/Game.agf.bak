@@ -2136,126 +2136,11 @@ stop
             <Name>dMetsanHenki</Name>
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
-//Daniel: Sekavaa seurata, tiedän sen. Kannattaa vain kokeilla pelissä.
 @S  // Dialog startup entry point
-  if (!Puhuttu_Metsahengen_Kanssa) {
 cMetHen: What do you want simple mortal?
-  }
-  else {
-cMethen: ...
-option-on 2
-  }
-  
-   if(Tietaa_Metsanhegen_Toiveen) {
-option-on 3
-   }
-   
-   if (Metsanhenki_tehty) {
-option-on 5
-   }
 return
-@1
-cMetHen: Then not disturb me!
-cCharacter: Forgive my intrusion, I take my leave now.
-cMetHen: ...
-stop
-@2
-//Daniel: Minulla meni vähän yli kirjoittaessa tätä.
-cMetHen: I am listenig you...for now.
-cCharacter: I am wondering if you could help me save my town that is...
-cMetHen: Silence! Do you thing I grant wishes or what?
-cCharacter: Well I could do something in return.
-cMetHen: Well I am not evil, but I know very well that helping you humans wont help me in return at all.
-cMetHen: You don't even respect me anymore.
-cCharacter: What do you meant with that?
-cMetHen: You know very well. You unfaithful human.
-cCharacter: I do not. And I do respect you.
-cMetHen: Well at least that "Priest" you have there do not respect me at all.
-cMetHen: Instead he is trying to spread lies. And people are becoming subordinates to the lie.
-cCharacter: You mean the new religion that is becoming obligatory to follow?
-cMetHen: Yes. I am the Spirit of this forrest and that priest is a risk for me. I want you to get rid of him.
-cCharacter: But how?
-cMetHen: I don't care. Kill him or whatever you want. And his lacky too.
-cMetHen: ...
-cMetHen: What did you want actually? Does it has to do with the problems all villages are having now?
-cCharacter: Yes... we are starving to death at the village. We have no food.
-cMetHen: I do have a little but extremely valuable bag full of magical seeds.
-cMetHen: It is useless to me, but the priest out of my sight not.
-cMetHen: Remove the presence of that priest and his lacky and I will give it to you.
-cCharacter: I will...
-cCharacter: help you if you do give then me that bag.
-cMetHen: Do it. If you do I promise to give you what you want.
-cMetHen: And I am honorable and honest not like humans. I will keep my word.
-cCharacter: I cannot exprees how grateful I am to you.
-CMetHen: You should know to never be grateful before the reason to it has been commited.
-cMetHen: But I do give value to your admiration to me.
-option-off-forever 1
-option-off-forever 2
-  Tietaa_Metsanhegen_Toiveen = true;
-stop
-@3
-  if(Pappi_kylassa) {
-cCharacter: He is still in the village. And his lacky too.
-cMetHen: Get rid of them...
-  }
-  else {
-cCharacter: I was able to make the priest to become mad. He and his servant heve left the village.
-cMetHen: ...
-cCharacter: They are away now. Will you give what you promised?
-cMetHen: You have done well. Inded I will fulfill my promise to you.
-cMetHen: Take the bag of seeds and sow the seed on your fileds.
-cCharacter: Thank you.
-  player.AddInventory(iTaikajyvat);
-option-off-forever 3
-  }
-stop
-@4
-cMetHen: I am the ancient spirit of the woods.
-cMetHen: But... how dare you step in here. Better to leave if you have nothing of importance!
-cMetHen: Did you have something of importance perhaps?
-option-off-forever 4
-option-on 1
-option-on 2
-  Puhuttu_Metsahengen_Kanssa = true;
-return
-@5
-cMetHen: I have nothing I need and nothing to give.
-cCharacter:  Forgive my intrusion, I take my leave now.
-  Metsanhenki_tehty = true;
-stop
 ]]></Script>
-            <DialogOptions>
-              <DialogOption>
-                <ID>1</ID>
-                <Text>No...no...nothing.</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>2</ID>
-                <Text xml:space="preserve">I Have one thing I would want to ask you.</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>3</ID>
-                <Text xml:space="preserve">About the priest...</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>4</ID>
-                <Text xml:space="preserve">Who are you?</Text>
-                <Show>True</Show>
-                <Say>True</Say>
-              </DialogOption>
-              <DialogOption>
-                <ID>5</ID>
-                <Text xml:space="preserve">Hello again.</Text>
-                <Show>False</Show>
-                <Say>True</Say>
-              </DialogOption>
-            </DialogOptions>
+            <DialogOptions />
           </Dialog>
         </Dialogs>
       </DialogFolder>
@@ -2700,16 +2585,6 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>Tietaa_Oravnnahkamaksun</Name>
-          <Type>bool</Type>
-          <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>Puhuttu_Metsahengen_Kanssa</Name>
-          <Type>bool</Type>
-          <DefaultValue>false</DefaultValue>
-        </GlobalVariable>
-        <GlobalVariable>
-          <Name>Metsanhenki_tehty</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
