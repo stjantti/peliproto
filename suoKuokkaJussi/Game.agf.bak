@@ -1764,6 +1764,7 @@ cKauppias: Indeed I am. See you again here at the shop.
 option-off-forever 4
 option-off-forever 2
 option-off-forever 3
+  player.AddInventory(iTulukset);
   }
   else {
 //muuten jos ei ole oravannahkoja:
@@ -1831,6 +1832,23 @@ cCharacter: Pie, Sir. I found blueberries and lingonberries and made a pie.
 cCharacter: I heard that You like pie. Perhaps You would grace me by trying it?
 cPappi: But certainly, my dear. I am glad to see that some people here honour their leaders appropriately.
 cPappi: How delicious it looks. Thank you very much for this gift.
+
+//Nyt pappi syˆ piirakan ja apulainen ryˆnt‰‰ h‰nen tulleensa hulluksi
+  player.LoseInventory(iPiirakka);  // pappi syˆ piirakan ja sekoaa
+  cPappi.Say("OOO! Can you see?! A burning bush! A burning bush under the window!");
+  player.Say("Pardon me, Sir, but that is your rosebush.");
+  cPappi.SayBackground("A burning bush! It is an omen! I am in a cage! Who put me in a cage?!?");
+  //Pit‰isikˆ olla papin apulaisen rynt‰misanimaatio?
+  cPapinApulainen.Say("Sir? Sir? How are you feeling? Why are you trying to demolish your fence?");
+  cPappi.Say("Protect yourself from the evil spirits! Stone them! Burn them!");
+  cPapinApulainen.Say("I thought you rather liked birds..?");
+  cPappi.Say("I deny you! You devil! I deny you, you hear me!");
+  cPapinApulainen.Say("Sir, you have been taken ill. I will take you to be treated. Please, come with me!");
+  cPappi.SayBackground("Stone them! Deny them! Idle hands, burn them!");
+  cPappi.ChangeView(14); //pappi l‰htee
+  cPapinApulainen.ChangeView(14); //papin apulainen l‰htee
+  Pappi_kylassa = false; //pappimuuttuja asetetaan falseksi, kyl‰ss‰ ei ole pappia
+  dMaanviljelija.SetOptionState(2, eOptionOn); //avataan maanviljelijan keskusteluvaihtoehto 2
 stop
 ]]></Script>
             <DialogOptions>
@@ -1996,6 +2014,7 @@ option-off-forever 3
 option-off-forever 4 //turhaa koodia
 option-off-forever 5 //turhaa koodia
 option-on 6
+ player.AddInventory(iKartta);
 stop
 //vaihtoehto 5n l‰pik‰ymisen j‰lkeen vaihtoehto 6 aktivoidaan, muut deaktivoidaan
 //jolloin pelaaja voi sanoa kalastajalle en‰‰ vain "Hello again"
@@ -3659,6 +3678,25 @@ stop
                 <ID>3</ID>
                 <RunNextLoop>False</RunNextLoop>
                 <Frames />
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>14</ID>
+            <Name>Empty</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
               </Loop>
             </Loops>
           </View>
