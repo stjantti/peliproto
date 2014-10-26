@@ -1550,7 +1550,7 @@
             <Interactions>
               <Event Index="0">cPappilaNPC_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cPappilaNPC_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1590,7 +1590,7 @@
             <Interactions>
               <Event Index="0">cToriNPC1_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cToriNPC1_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1630,7 +1630,7 @@
             <Interactions>
               <Event Index="0">oToriNpc2_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">oToriNpc2_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1670,7 +1670,7 @@
             <Interactions>
               <Event Index="0">cToriNPC3_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cToriNPC3_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -1710,7 +1710,7 @@
             <Interactions>
               <Event Index="0">cMetsa1ToraJyvNPC_Look</Event>
               <Event Index="1" />
-              <Event Index="2" />
+              <Event Index="2">cMetsa1ToraJyvNPC_Talk</Event>
               <Event Index="3" />
               <Event Index="4" />
               <Event Index="5" />
@@ -2097,6 +2097,19 @@ stop
                 <Say>True</Say>
               </DialogOption>
             </DialogOptions>
+          </Dialog>
+          <Dialog>
+            <ID>6</ID>
+            <Name>dGeneerinenNPC</Name>
+            <ShowTextParser>False</ShowTextParser>
+            <Script><![CDATA[// Dialog script file
+@S  // Dialog startup entry point
+cPappilaNPC: The lack of food is terrible.
+cCharacter: It is indeed.
+stop
+
+]]></Script>
+            <DialogOptions />
           </Dialog>
         </Dialogs>
       </DialogFolder>
