@@ -1288,8 +1288,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>5</StartingRoom>
-            <StartX>262</StartX>
-            <StartY>232</StartY>
+            <StartX>356</StartX>
+            <StartY>625</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -1448,8 +1448,8 @@
             <ThinkingView>0</ThinkingView>
             <BlinkingView>0</BlinkingView>
             <StartingRoom>16</StartingRoom>
-            <StartX>643</StartX>
-            <StartY>371</StartY>
+            <StartX>536</StartX>
+            <StartY>503</StartY>
             <UniformMovementSpeed>True</UniformMovementSpeed>
             <MovementSpeed>3</MovementSpeed>
             <MovementSpeedX>0</MovementSpeedX>
@@ -2208,10 +2208,10 @@ return
       </MouseCursor>
       <MouseCursor>
         <ID>5</ID>
-        <HotspotX>8</HotspotX>
-        <HotspotY>8</HotspotY>
+        <HotspotX>0</HotspotX>
+        <HotspotY>0</HotspotY>
         <StandardMode>False</StandardMode>
-        <Image>27</Image>
+        <Image>62</Image>
         <View>0</View>
         <Animate>False</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
@@ -2898,6 +2898,11 @@ return
           <Sprite Slot="61" Width="190" Height="168" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>D:\Adventure Game Studio 3.3.2\peliproto\suoKuokkaJussi\kuvat\verkko_rikki.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="62" Width="27" Height="32" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\käsi2.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
