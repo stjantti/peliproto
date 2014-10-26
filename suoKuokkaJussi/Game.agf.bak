@@ -1732,8 +1732,16 @@
             <ShowTextParser>False</ShowTextParser>
             <Script><![CDATA[// Dialog script file
 @S  // Dialog startup entry point
+//Kauppias yrittää kovasti myydä pelihahmolle tuluksia.
 cCharacter: Hello!
 cKauppias: Hello! How can I help you?
+  if (Kerrottu_Tuluksista && Tietaa_Piirakasta) {
+option-on 3
+  }
+  if (Kerrottu_Tuluksista) {
+cKauppias: Well...I am still selling tinderboxes. Are you sure this time you are not going to say yes to buying it.
+cKauppias: You may very well regret later not having bought it.
+  }
 return
 @1
 cKauppias: Let me know if I can help you.
@@ -1773,12 +1781,14 @@ cCharacter: I have none.
 cKauppias: Why you said then that you were going to buy it.
 cKauppias: Well come again when you have something with to pay it with.
   Tietaa_Oravnnahkamaksun = true;
+  Kerrottu_Tuluksista = true;
   }
 stop
 //Jos ei tiedä piirakan teosta.
 @4
 cKauppias: Well you should buy it anyway.
 cKauppias: You may very well regret later not having bought it.
+  Kerrottu_Tuluksista = true;
 stop
 ]]></Script>
             <DialogOptions>
@@ -2710,6 +2720,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>Metsanhenki_tehty</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Kerrottu_Tuluksista</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
