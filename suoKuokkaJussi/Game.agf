@@ -2402,11 +2402,11 @@ option-off-forever 4
 option-on 1
 option-on 2
   Puhuttu_Metsahengen_Kanssa = true;
+  Metsanhenki_tehty = true;
 return
 @5
 cMetHen: I have nothing I need and nothing to give.
 cCharacter:  Forgive my intrusion, I take my leave now.
-  Metsanhenki_tehty = true;
 stop
 ]]></Script>
             <DialogOptions>
