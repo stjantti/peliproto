@@ -2391,6 +2391,7 @@ cMetHen: You have done well. Inded I will fulfill my promise to you.
 cMetHen: Take the bag of seeds and sow the seeds on your fileds.
 cCharacter: Thank you.
   player.AddInventory(iTaikajyvat);
+  Metsanhenki_tehty = true;
 option-off-forever 3
   }
 stop
@@ -2402,7 +2403,6 @@ option-off-forever 4
 option-on 1
 option-on 2
   Puhuttu_Metsahengen_Kanssa = true;
-  Metsanhenki_tehty = true;
 return
 @5
 cMetHen: I have nothing I need and nothing to give.
