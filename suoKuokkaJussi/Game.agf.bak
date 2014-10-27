@@ -2885,6 +2885,7 @@ stop
 @3
 cMaanviljelija: Why not.
 cMaanviljelija: Can't get any worse than this.
+  Maanviljelijan_Lupa = true;
 stop
 ]]></Script>
             <DialogOptions>
@@ -3526,6 +3527,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>Puhunut_Mummelille</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Maanviljelijan_Lupa</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
@@ -4770,7 +4776,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:09:29Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 13:09:29Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aMetsa</ScriptName>
@@ -4782,7 +4788,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:10:16Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 13:10:16Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aLopputekstit</ScriptName>
@@ -4794,7 +4800,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:09:17Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 13:09:17Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aMetHenPuhuu</ScriptName>
@@ -4806,7 +4812,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:10:09Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 13:10:09Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aMetHenPuhu</ScriptName>
@@ -4818,7 +4824,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:10:02Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 13:10:02Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aOravanMetsastys</ScriptName>
@@ -4830,7 +4836,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:09:07Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 13:09:07Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>

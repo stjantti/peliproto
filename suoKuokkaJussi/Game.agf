@@ -2885,6 +2885,7 @@ stop
 @3
 cMaanviljelija: Why not.
 cMaanviljelija: Can't get any worse than this.
+  Maanviljelijan_Lupa = true;
 stop
 ]]></Script>
             <DialogOptions>
@@ -3526,6 +3527,11 @@ stop
         </GlobalVariable>
         <GlobalVariable>
           <Name>Puhunut_Mummelille</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
+        <GlobalVariable>
+          <Name>Maanviljelijan_Lupa</Name>
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
