@@ -3840,7 +3840,7 @@ stop
           </Sprite>
           <Sprite Slot="54" Width="392" Height="542" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (8).png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pappi_edesta.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="55" Width="266" Height="538" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
