@@ -3232,6 +3232,31 @@ stop
               <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\käsi2.png</FileName>
             </Source>
           </Sprite>
+          <Sprite Slot="64" Width="500" Height="350" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\vilja1.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="65" Width="500" Height="350" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\vilja2.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="66" Width="500" Height="350" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\vilja3.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="67" Width="500" Height="350" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\vilja4.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="68" Width="500" Height="350" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\vilja5.png</FileName>
+            </Source>
+          </Sprite>
         </Sprites>
       </SpriteFolder>
     </Sprites>
