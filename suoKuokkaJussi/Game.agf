@@ -71,7 +71,7 @@
       <SaveGameFileExtension />
       <SaveGameFolderName>suoKuokkaJussi</SaveGameFolderName>
       <BinaryFilesInSourceControl>False</BinaryFilesInSourceControl>
-      <AudioIndexer>0</AudioIndexer>
+      <AudioIndexer>6</AudioIndexer>
     </Settings>
     <LipSync>
       <Type>None</Type>
@@ -939,7 +939,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -960,7 +960,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1089,7 +1089,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1110,7 +1110,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1239,7 +1239,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1260,7 +1260,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1389,7 +1389,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1410,7 +1410,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1539,7 +1539,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -1560,7 +1560,7 @@
                 <PushedImage>0</PushedImage>
                 <MouseoverImage>0</MouseoverImage>
                 <Image>0</Image>
-                <Text>Exit</Text>
+                <Text xml:space="preserve">Exit (By pressing Alt+F4)</Text>
                 <Height>237</Height>
                 <Locked>False</Locked>
                 <Width>300</Width>
@@ -2929,9 +2929,16 @@ stop
 //Daniel: Sekavaa seurata, tiedän sen. Kannattaa vain kokeilla pelissä.
 @S  // Dialog startup entry point
   if (!Puhuttu_Metsahengen_Kanssa) {
+      aMetHenPuhuu.Play();
 cMetHen: What do you want simple mortal? //Vain ensimmäisen kerran sanoo tämän.
   }
   else {
+    if(!Tietaa_Metsanhegen_Toiveen) {
+      aMetHenPuhuu.Play();
+    }
+    else {
+      aMetHenPuhu.Play();
+    }
 cMethen: "..." //Metsänhenki ei sano mitään.
 option-on 2
   }
@@ -2948,6 +2955,7 @@ return
 cMetHen: Then not disturb me!
 cCharacter: Forgive my intrusion, I take my leave now.
 cMetHen: "..."
+  aMetsa.Play();
 stop
 @2
 //Daniel: Minulla meni vähän yli kirjoittaessa tätä.
@@ -2982,6 +2990,7 @@ cMetHen: But I do give value to your admiration to me.
 option-off-forever 1
 option-off-forever 2
   Tietaa_Metsanhegen_Toiveen = true;
+    aMetsa.Play();
 stop
 @3
   if(Pappi_kylassa) {
@@ -2999,6 +3008,7 @@ cCharacter: Thank you.
   Metsanhenki_tehty = true;
 option-off-forever 3
   }
+    aMetsa.Play();
 stop
 @4
 cMetHen: I am the ancient spirit of the woods.
@@ -3012,6 +3022,7 @@ return
 @5
 cMetHen: I have nothing I need and nothing to give.
 cCharacter:  Forgive my intrusion, I take my leave now.
+  aMetsa.Play();
 stop
 ]]></Script>
             <DialogOptions>
@@ -4748,7 +4759,80 @@ stop
         <SubFolders>
           <AudioClipFolder Name="Music">
             <SubFolders />
-            <AudioClips />
+            <AudioClips>
+              <AudioClip>
+                <ScriptName>aMenu</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\Music\little town - orchestral.ogg</SourceFileName>
+                <Index>1</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2014-10-27 11:09:29Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aMetsa</ScriptName>
+                <SourceFileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\Music\TownTheme.mp3</SourceFileName>
+                <Index>2</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2014-10-27 11:10:16Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aLopputekstit</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\Music\Beyond The Clouds (Theme for Modern Broadcast)_0.mp3</SourceFileName>
+                <Index>3</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2014-10-27 11:09:17Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aMetHenPuhuu</ScriptName>
+                <SourceFileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\Music\Soliloquy_1.mp3</SourceFileName>
+                <Index>4</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2014-10-27 11:10:09Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aMetHenPuhu</ScriptName>
+                <SourceFileName xml:space="preserve">C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\Music\old city theme_3.ogg</SourceFileName>
+                <Index>5</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>OGG</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2014-10-27 11:10:02Z</FileLastModifiedDate>
+              </AudioClip>
+              <AudioClip>
+                <ScriptName>aOravanMetsastys</ScriptName>
+                <SourceFileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\Music\battleThemeA.mp3</SourceFileName>
+                <Index>6</Index>
+                <Type>2</Type>
+                <BundlingType>InSeparateVOX</BundlingType>
+                <FileType>MP3</FileType>
+                <DefaultVolume>-1</DefaultVolume>
+                <DefaultPriority>Inherit</DefaultPriority>
+                <DefaultRepeat>Inherit</DefaultRepeat>
+                <FileLastModifiedDate>2014-10-27 11:09:07Z</FileLastModifiedDate>
+              </AudioClip>
+            </AudioClips>
             <AudioClipFolder>
               <DefaultVolume>100</DefaultVolume>
               <DefaultPriority>Inherit</DefaultPriority>
