@@ -4838,8 +4838,8 @@ stop
             <SubFolders />
             <AudioClips>
               <AudioClip>
-                <ScriptName>aMenu</ScriptName>
                 <SourceFileName xml:space="preserve">C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\Music\little town - orchestral.ogg</SourceFileName>
+                <ScriptName>aMenu</ScriptName>
                 <Index>1</Index>
                 <Type>2</Type>
                 <BundlingType>InSeparateVOX</BundlingType>
@@ -4847,7 +4847,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:09:29Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 15:09:29Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aMetsa</ScriptName>
@@ -4859,7 +4859,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:10:16Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 15:10:16Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aLopputekstit</ScriptName>
@@ -4871,7 +4871,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:09:17Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 15:09:17Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aMetHenPuhuu</ScriptName>
@@ -4883,7 +4883,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:10:09Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 15:10:09Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aMetHenPuhu</ScriptName>
@@ -4895,7 +4895,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:10:02Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 15:10:02Z</FileLastModifiedDate>
               </AudioClip>
               <AudioClip>
                 <ScriptName>aOravanMetsastys</ScriptName>
@@ -4907,7 +4907,7 @@ stop
                 <DefaultVolume>-1</DefaultVolume>
                 <DefaultPriority>Inherit</DefaultPriority>
                 <DefaultRepeat>Inherit</DefaultRepeat>
-                <FileLastModifiedDate>2014-10-27 11:09:07Z</FileLastModifiedDate>
+                <FileLastModifiedDate>2014-10-27 15:09:07Z</FileLastModifiedDate>
               </AudioClip>
             </AudioClips>
             <AudioClipFolder>
@@ -4942,8 +4942,8 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <Name xml:space="preserve">Ambient Sound</Name>
         <TypeID>1</TypeID>
+        <Name xml:space="preserve">Ambient Sound</Name>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
