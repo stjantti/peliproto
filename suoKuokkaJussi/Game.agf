@@ -2621,12 +2621,26 @@ cPappi: How delicious it looks. Thank you very much for this gift.
 
 //Nyt pappi syö piirakan ja apulainen ryöntää hänen tulleensa hulluksi
   player.LoseInventory(iPiirakka);  // pappi syö piirakan ja sekoaa
+  cPappi.ChangeView(15);
+  Wait(10);
+  cPappi.ChangeView(17);
+  Wait(10);
+  cPappi.ChangeView(16);
+  Wait(10);
+  cPappi.ChangeView(3);
   cPappi.Say("OOO! Can you see?! A burning bush! A burning bush under the window!");
   player.Say("Pardon me, Sir, but that is your rosebush.");
   cPappi.SayBackground("A burning bush! It is an omen! I am in a cage! Who put me in a cage?!?");
   //Pitäisikö olla papin apulaisen ryntämisanimaatio?
   cPapinApulainen.Say("Sir? Sir? How are you feeling? Why are you trying to demolish your fence?");
   cPappi.Say("Protect yourself from the evil spirits! Stone them! Burn them!");
+  cPappi.ChangeView(15);
+  Wait(10);
+  cPappi.ChangeView(17);
+  Wait(10);
+  cPappi.ChangeView(16);
+  Wait(10);
+  cPappi.ChangeView(3);
   cPapinApulainen.Say("I thought you rather liked birds..?");
   cPappi.Say("I deny you! You devil! I deny you, you hear me!");
   cPapinApulainen.Say("Sir, you have been taken ill. I will take you to be treated. Please, come with me!");
@@ -3845,12 +3859,12 @@ stop
           </Sprite>
           <Sprite Slot="55" Width="266" Height="538" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (9).png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pappi_sivulta.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="56" Width="276" Height="540" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
-              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\Hahmo (10).png</FileName>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\pappi_takaa.png</FileName>
             </Source>
           </Sprite>
           <Sprite Slot="57" Width="640" Height="400" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
@@ -4717,6 +4731,63 @@ stop
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>0</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>15</ID>
+            <Name>pappiOikea</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>55</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>16</ID>
+            <Name>pappiVasen</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>55</Image>
+                    <Flipped>True</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>17</ID>
+            <Name>pappiTaakse</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>56</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
