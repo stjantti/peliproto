@@ -2683,6 +2683,10 @@ option-on 4
   if (Tietaa_Piirakasta) {
 option-on 3
   }
+  if (Puhunut_Mummelille) {
+cMummeli: He is still can't get pie, he is still cn't get pie, he still...
+option-on 2
+  }
 return
 @1
 cMummeli: Humility! Heehee! Poor chap can't even get himself some pie. Heehee!
@@ -2696,6 +2700,7 @@ option-off 2
   //RUN_DIALOG_RETURN //Toimiiko?
   //retuRn suoraan ei toimi (jos kirjoittaa retu... niin otta käskyn jopa kommenttien sisältä!
   }
+  Puhunut_Mummelille = true;
 stop
 @3
 cMummeli: Heehee! Vicar's in the well, little Tommy tell.
@@ -2738,7 +2743,7 @@ stop
               </DialogOption>
               <DialogOption>
                 <ID>4</ID>
-                <Text xml:space="preserve">Pardon me, do you know anything about the vicar?</Text>
+                <Text xml:space="preserve">Excuse  me, do you know anything about the vicar?</Text>
                 <Show>False</Show>
                 <Say>True</Say>
               </DialogOption>
@@ -3508,6 +3513,11 @@ stop
           <Type>bool</Type>
           <DefaultValue>false</DefaultValue>
         </GlobalVariable>
+        <GlobalVariable>
+          <Name>Puhunut_Mummelille</Name>
+          <Type>bool</Type>
+          <DefaultValue>false</DefaultValue>
+        </GlobalVariable>
       </Variables>
     </GlobalVariables>
     <Sprites>
@@ -3879,6 +3889,11 @@ stop
           <Sprite Slot="68" Width="500" Height="350" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
             <Source>
               <FileName>C:\Users\Hanna\Documents\GitHub\apu\peliproto\suoKuokkaJussi\kuvat\vilja5.png</FileName>
+            </Source>
+          </Sprite>
+          <Sprite Slot="73" Width="268" Height="402" ColorDepth="16" Resolution="HighRes" AlphaChannel="False">
+            <Source>
+              <FileName>C:\Users\Daniel\Documents\GitHub\peliproto\suoKuokkaJussi\hahmot\mummeli.png</FileName>
             </Source>
           </Sprite>
         </Sprites>
@@ -4384,7 +4399,7 @@ stop
                 <Frames>
                   <ViewFrame>
                     <ID>0</ID>
-                    <Image>0</Image>
+                    <Image>73</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
@@ -4766,24 +4781,24 @@ stop
     </AudioClips>
     <AudioClipTypes>
       <AudioClipType>
-        <TypeID>1</TypeID>
         <Name xml:space="preserve">Ambient Sound</Name>
+        <TypeID>1</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>2</TypeID>
         <Name>Music</Name>
+        <TypeID>2</TypeID>
         <MaxChannels>1</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>30</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
         <BackwardsCompatibilityType>True</BackwardsCompatibilityType>
       </AudioClipType>
       <AudioClipType>
-        <TypeID>3</TypeID>
         <Name>Sound</Name>
+        <TypeID>3</TypeID>
         <MaxChannels>0</MaxChannels>
         <VolumeReductionWhileSpeechPlaying>0</VolumeReductionWhileSpeechPlaying>
         <CrossfadeClips>No</CrossfadeClips>
